@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import logo from '../images/old-logo.png' //relative paths don't work in components, have to import
 import Navbar from "./navbar"
 import "./layout.scss"
 
@@ -18,6 +19,9 @@ const Layout = ({ children }) => {
 
   return (
     <div className="container-fluid p-0">
+      <div>
+        <a href="#"><img src={logo} alt="Rizal Heritage Center"></img></a>
+      </div>
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>
         {children}

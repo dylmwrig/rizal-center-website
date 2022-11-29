@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container-fluid p-0">
+    <div className="text-center py-5">
       <div>
         <a href="#"><img src={logo} alt="Rizal Heritage Center"></img></a>
       </div>

@@ -23,11 +23,13 @@ const Layout = ({ children }) => {
       <div>
         <a href="#"><img src={logo} alt="Rizal Heritage Center"></img></a>
       </div>
-      <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <main>
-        {children}
-      </main>
-      <Footer />
+      <Navbar siteTitle={data.site.siteMetadata?.title || `Rizal Center`} />
+      <div className="mx-auto w-75"> {/*change w-75 if full site width needs to change*/}
+        <main>
+          {children}
+        </main>
+        <Footer />
+      </div>
     </div>
   )
 }

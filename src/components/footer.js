@@ -1,24 +1,33 @@
 import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import fbLogo from '../images/2021_Facebook_icon.svg'
+import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
+    <footer>
       <div className="container-fluid mx-auto">
         <div className="row"> 
-          <div className="col-4">copyright stuff</div>
-          <div className="col-4">facebook logo</div>
-          <div className="col-4">address</div>
+          <p className="col-4 text-muted text-left my-4">©2023 FILIPINO AMERICAN COUNCIL OF GREATER CHICAGO -  ALL RIGHTS RESERVED.</p>
+          <div className="col-4 my-4">
+            <a href="https://www.facebook.com/facchicago">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg"
+                alt="Follow us on Facebook!"
+                height="50" width="50">
+              </img>
+            </a>
+          </div>
+          <p className="col-4 my-4 text-muted">1332 W IRVING PARK ROAD CHICAGO, ILLINOIS 60613</p>
         </div>
         <div className="d-flex justify-content-evenly">
-          <div className="col-2"><a href="#">Support</a></div>
-          <div className="col-2"><a href="#">Volunteer Opportunities</a></div>
-          <div className="col-2"><a href="#">Volunteer Orientation</a></div>
-          <div className="col-2"><a href="#">Volunteer Policies</a></div>
-          <div className="col-2"><a href="#">Privacy Statement</a></div>
-          <div className="col-2"><a href="#">Contact Us</a></div>
+          <div><a href="#">Support</a></div>
+          <div><a href="#">Volunteer Opportunities</a></div>
+          <div><a href="#">Volunteer Orientation</a></div>
+          <div><a href="#">Volunteer Policies</a></div>
+          <div><a href="#">Privacy Statement</a></div>
+          <div><a href="#">Contact Us</a></div>
         </div>
       </div>
+    </footer>
   )
 }
 

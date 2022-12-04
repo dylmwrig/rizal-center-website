@@ -18,7 +18,7 @@ const Navbar = ({ siteTitle }) => {
       <div className="container-fluid">
         <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a href="#" class="nav-link">Home</a>
+              <a href="/" class="nav-link">Home</a>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Support</a>
@@ -34,7 +34,7 @@ const Navbar = ({ siteTitle }) => {
               <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About Us</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#"> About Us </a></li>
-                  <li><a class="dropdown-item" href="#"> For Whom It Is Named</a></li>
+                  <li><a class="dropdown-item" href="/jose-rizal/"> For Whom It Is Named</a></li>
                   <li><a class="dropdown-item" href="#"> Celebrating Rizal Center</a></li>
                   <li><a class="dropdown-item" href="#"> Policies</a></li>
                   <li><a class="dropdown-item" href="#"> Privacy Statement</a></li>

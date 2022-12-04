@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
   return (
     <div className="text-center py-5">
       <div>
-        <a href="#"><img src={logo} alt="Rizal Heritage Center"></img></a>
+        <a href="/"><img src={logo} alt="Rizal Heritage Center"></img></a>
       </div>
       <Navbar siteTitle={data.site.siteMetadata?.title || `Rizal Center`} />
       <div className="mx-auto w-75"> {/*change w-75 if full site width needs to change*/}

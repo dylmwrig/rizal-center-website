@@ -35,6 +35,19 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
+          {
+            name: `Playfair Display`,
+            file: `https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap`,
+          },
+        ],
+      },
+    },
     `gatsby-plugin-gatsby-cloud`,
   ],
 }

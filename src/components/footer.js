@@ -1,6 +1,6 @@
 import * as React from "react"
-import fbLogo from '../images/2021_Facebook_icon.svg'
 import { StaticImage } from "gatsby-plugin-image"
+import './footer.module.css'
 
 const Footer = () => {
   return (

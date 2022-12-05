@@ -19,6 +19,10 @@ The building was known as the Jose P. Rizal Heritage Center until it was renamed
         </div>
         <div className="col-4">
           <img src={rizal} alt="José Rizal"></img>
+          <p class="text-muted">
+            José P. Rizal <br/>
+            (June 19, 1861 - December 30, 1896)
+          </p>
         </div>
       </div>
     </div>

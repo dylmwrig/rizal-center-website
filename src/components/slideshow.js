@@ -1,8 +1,10 @@
 import * as React from "react"
 
 import "./layout.scss"
-import img1 from '../images/gatsby-astronaut.png'
-import img2 from '../images/rizal.webp'
+import "./slideshow.css"
+import img1 from '../images/rizal-center.png'
+import img2 from '../images/rizal-center2.jpg'
+import img3 from '../images/rizal-center2.jpg'
 
 const Slideshow = () => {
   return (
@@ -14,13 +16,13 @@ const Slideshow = () => {
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="First slide"></img>
+          <img class="d-block w-100" src={img1} alt="Rizal Heritage Center"></img>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="Second slide"></img>
+          <img class="d-block w-100" src={img2} alt="Second slide"></img>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src={img2} alt="Third slide"></img>
+          <img class="d-block w-100" src={img3} alt="Third slide"></img>
         </div>
       </div>
       <button class="carousel-control-prev" data-bs-target="#homeCarousel" data-bs-slide="prev" type="button">

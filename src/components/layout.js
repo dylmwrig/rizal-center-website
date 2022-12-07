@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="text-center py-5">
+    <div className="text-center"> 
       <div>
         <a href="/"><img src={logo} alt="Rizal Heritage Center"></img></a>
       </div>

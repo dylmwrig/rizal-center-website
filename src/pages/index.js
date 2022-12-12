@@ -10,9 +10,15 @@ const IndexPage = () => (
   <Layout>
     <section className="pt-4 pb-5 text-center container">
       <div class="row">
-        <Slideshow class="col-6">
-        </Slideshow>
-
+        <div class="col-6">
+          <Slideshow> 
+          </Slideshow>
+        </div>
+        <div id="slideLabel" class="col-6 d-flex align-items-center justify-content-center text-center">
+          <p>
+            We're<br/>Building<br/>Community!
+          </p>
+        </div>
       </div>
       <div className="row">
         <Link to="/about/" className="btn btn-primary my-2">About</Link>

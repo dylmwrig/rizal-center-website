@@ -4,7 +4,7 @@ import "./layout.scss"
 import "./slideshow.css"
 import img1 from '../images/rizal-center.png'
 import img2 from '../images/rizal-center2.jpg'
-import img3 from '../images/rizal-center2.jpg'
+import img3 from '../images/rizal-center3.jpg'
 
 const Slideshow = () => {
   return (
@@ -26,6 +26,7 @@ const Slideshow = () => {
             <img class="d-block w-100 img-fluid" src={img3} alt="Third slide"></img>
           </div>
         </div>
+        {/*
         <button class="carousel-control-prev" data-bs-target="#homeCarousel" data-bs-slide="prev" type="button">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -34,6 +35,7 @@ const Slideshow = () => {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </button>
+        */}
       </div>
     </div>
   )

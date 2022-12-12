@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="text-center"> 
-      <div>
+      <div class="pt-5">
         <a href="/"><img src={logo} alt="Rizal Heritage Center"></img></a>
       </div>
       <Navbar siteTitle={data.site.siteMetadata?.title || `Rizal Center`} />

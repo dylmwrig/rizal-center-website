@@ -45,6 +45,10 @@ module.exports = {
             name: `Playfair Display`,
             file: `https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap`,
           },
+          {
+            name: `Open Sans`,
+            file: `https://fonts.googleapis.com/css2?family=Open+Sans&display=swap`,
+          },
         ],
       },
     },

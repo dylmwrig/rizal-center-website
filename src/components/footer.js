@@ -18,10 +18,9 @@ const Footer = () => {
           </div>
           <p className="col-4 my-4 text-muted">1332 W IRVING PARK ROAD CHICAGO, ILLINOIS 60613</p>
         </div>
-        <div className="d-flex justify-content-evenly">
+        <div className="d-flex justify-content-evenly pb-4">
           <div><a href="#">Support</a></div>
           <div><a href="#">Volunteer Opportunities</a></div>
-          <div><a href="#">Volunteer Orientation</a></div>
           <div><a href="#">Volunteer Policies</a></div>
           <div><a href="#">Privacy Statement</a></div>
           <div><a href="#">Contact Us</a></div>

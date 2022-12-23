@@ -16,7 +16,7 @@ const IndexPage = () => (
     <section className="pt-4 pb-5 text-center container">
       <div class="row">
         <div class="col-6">
-          <Slideshow img1={img1} img2={img2} img3={img3}> 
+          <Slideshow images={[img1, img2, img3]}>
           </Slideshow>
         </div>
         <div id="slideLabel" class="col-6 d-flex align-items-center justify-content-center text-center">

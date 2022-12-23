@@ -3,7 +3,7 @@ import * as React from "react"
 import "./layout.scss"
 import "./slideshow.css"
 
-const Slideshow = (props) => {
+const Slideshow = ({ images }) => {
   return (
     <div id="carouselWrap">
       <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">    
@@ -14,13 +14,13 @@ const Slideshow = (props) => {
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100 img-fluid" src={props.img1} alt="Rizal Heritage Center"></img>
+            <img class="d-block w-100 img-fluid" src={images[0]} alt="Rizal Heritage Center"></img>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 img-fluid" src={props.img2} alt="Second slide"></img>
+            <img class="d-block w-100 img-fluid" src={images[1]} alt="Second slide"></img>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 img-fluid" src={props.img3} alt="Third slide"></img>
+            <img class="d-block w-100 img-fluid" src={images[2]} alt="Third slide"></img>
           </div>
         </div>
         {/*

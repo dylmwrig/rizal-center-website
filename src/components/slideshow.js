@@ -6,15 +6,17 @@ import "./slideshow.css"
 const Slideshow = (props) => {
   const imgSplit = props.images.slice(1);
   const alts = props.alt;
-  const id = props.id
+  const interval = props.interval;
+  const id = props.id;
+  const indicID = "#"+id;
   return (
-    <div id={id}>{/*could be useful for individual carousel styling*/}
-      <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">    
-        <ol class="carousel-indicators">
-          <li data-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
-          <li data-target="#homeCarousel" data-bs-slide-to="1"></li>
-          <li data-target="#homeCarousel" data-bs-slide-to="2"></li>
-        </ol>
+    <div>
+      <div id={id} class="carousel slide" data-bs-interval={interval} data-bs-ride="carousel">    
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target={indicID} data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target={indicID} data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target={indicID} data-bs-slide-to="2"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100 img-fluid" src={props.images[0]} alt={alts[0]}></img>
@@ -31,13 +33,3 @@ const Slideshow = (props) => {
 }
 
 export default Slideshow
-        {/*
-        <button class="carousel-control-prev" data-bs-target="#homeCarousel" data-bs-slide="prev" type="button">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" data-bs-target="#homeCarousel" data-bs-slide="next" type="button">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </button>
-        */}

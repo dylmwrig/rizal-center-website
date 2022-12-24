@@ -19,7 +19,8 @@ const IndexPage = () => (
         <div class="col-6">
           <Slideshow images={[img1, img2, img3]} 
                      alt={["Rizal center", "Jose Rizal", "Rizal speech"]}
-                     id="car1"/>
+                     id="car1"
+                     interval="3500"/>
         </div>
         <div id="slideLabel" class="col-6 d-flex align-items-center justify-content-center text-center">
           <p>
@@ -36,16 +37,17 @@ There is one place in Chicago that is considered by many Filipino Americans as t
           <a class="fs-7 fw-light text-muted" style={{textDecoration: "none"}} href="/jose-rizal/"> Dr. Jose Rizal</a> (1332 W. Irving Park Rd., Chicago, IL 60613).<br/>
 The Rizal Community Center is a multicultural, multigenerational community and cultural center located in Chicago's Lakeview neighborhood!  But it's more than a building. It's a revitalized way of thinking about who we are and how we engage with our community, our neighborhood, and our city.
         </p>
-      <div class="row">
+      <div class="row pb-5">
         <p class="col-6 fw-light text-muted">
-During the last three months, members of the Bayanihan Volunteer Corps put back the auditorium to its rightful place - a safe place for community members to hold dancing, celebrate happy and memorable events, hold forums, or just hang out. We look forward to 2023 to open more programs from health education and training to senior citizens' wellness and recreational programs. <br/>
+During the last three months, members of the Bayanihan Volunteer Corps put back the auditorium to its rightful place - a safe place for community members to hold dancing, celebrate happy and memorable events, hold forums, or just hang out. We look forward to 2023 to open more programs from health education and training to senior citizens' wellness and recreational programs. <br/><br/>
 Of course, we welcome program suggestions from you. 
 Please send your suggestions to facc.rizalcenter@gmail.com. Mabuhay! 
         </p>
         <div class="col-6">
         <Slideshow images={[cleanImg, cleanImg2, cleanImg3]}
                    alt={["Pre-cleanup", "Post-cleanup", "Bayanihan cleanup"]}
-                   id="car2"/>
+                   id="car2"
+                   interval="3000"/>
         </div>
       </div>
 

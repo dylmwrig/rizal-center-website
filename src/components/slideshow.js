@@ -3,7 +3,9 @@ import * as React from "react"
 import "./layout.scss"
 import "./slideshow.css"
 
-const Slideshow = ({ images }) => {
+const Slideshow = (props) => {
+  const imgSplit = props.images.slice(1);
+  const alts = props.alt;
   return (
     <div id="carouselWrap">
       <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">    
@@ -14,15 +16,20 @@ const Slideshow = ({ images }) => {
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100 img-fluid" src={images[0]} alt="Rizal Heritage Center"></img>
+            <img class="d-block w-100 img-fluid" src={props.images[0]} alt={alts[0]}></img>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-fluid" src={images[1]} alt="Second slide"></img>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-fluid" src={images[2]} alt="Third slide"></img>
-          </div>
+          {imgSplit.map((image, index) => (    
+            <div class="carousel-item">
+              <img class="d-block w-100 img-fluid" src={image} alt={alts[index+1]}></img>
+            </div>
+          ))}
         </div>
+      </div>
+    </div>
+  )
+}
+
+export default Slideshow
         {/*
         <button class="carousel-control-prev" data-bs-target="#homeCarousel" data-bs-slide="prev" type="button">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -33,9 +40,3 @@ const Slideshow = ({ images }) => {
           <span class="sr-only">Next</span>
         </button>
         */}
-      </div>
-    </div>
-  )
-}
-
-export default Slideshow

@@ -5,6 +5,7 @@ import "./slideshow.css"
 
 const Slideshow = (props) => {
   const imgSplit = props.images.slice(1);
+  const slideCount = imgSplit.length;
   const alts = props.alt;
   const interval = props.interval;
   const id = props.id;
@@ -14,8 +15,9 @@ const Slideshow = (props) => {
       <div id={id} class="carousel slide" data-bs-interval={interval} data-bs-ride="carousel">    
         <div class="carousel-indicators">
           <button type="button" data-bs-target={indicID} data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target={indicID} data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target={indicID} data-bs-slide-to="2"></button>
+          {imgSplit.map((image, index) => ( 
+            <button type="button" data-bs-target={indicID} data-bs-slide-to={index+1}></button>
+          ))}
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">

@@ -8,6 +8,7 @@ import { Seo } from "../components/seo"
 import img1 from '../images/rizal-center.png'
 import img2 from '../images/rizal-center2.jpg'
 import img3 from '../images/rizal-center3.jpg'
+import img4 from '../images/rizal-center4.jpg'
 import cleanImg from "../images/cleanup.jpg"
 import cleanImg2 from "../images/cleanup2.jpg"
 import cleanImg3 from "../images/cleanup3.jpg"
@@ -17,8 +18,8 @@ const IndexPage = () => (
     <section className="pt-4 pb-5 text-center container">
       <div class="row">
         <div class="col-6">
-          <Slideshow images={[img1, img2, img3]} 
-                     alt={["Rizal center", "Jose Rizal", "Rizal speech"]}
+          <Slideshow images={[img1, img2, img3, img4]} 
+                     alt={["Rizal center", "Jose Rizal", "Rizal speech", "Filipino flag"]}
                      id="car1"
                      interval="3500"/>
         </div>

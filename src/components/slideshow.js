@@ -6,8 +6,9 @@ import "./slideshow.css"
 const Slideshow = (props) => {
   const imgSplit = props.images.slice(1);
   const alts = props.alt;
+  const id = props.id
   return (
-    <div id="carouselWrap">
+    <div id={id}>{/*could be useful for individual carousel styling*/}
       <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">    
         <ol class="carousel-indicators">
           <li data-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>

@@ -23,11 +23,16 @@ const Navbar = ({ siteTitle }) => {
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-dark px-3" href="#" data-bs-toggle="dropdown">Support</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#"> Support </a></li>
-                  <li><a class="dropdown-item" href="#"> In-Kind Wish List</a></li>
-                  <li><a class="dropdown-item" href="#"> Volunteer Opportunities</a></li>
-                  <li><a class="dropdown-item" href="#"> Volunteer Orientation</a></li>
+                  <li><a class="dropdown-item" href="/support/"> Support </a></li>
+                  <li><a class="dropdown-item" href="/wish-list/"> In-Kind Wish List</a></li>
+                  <li><a class="dropdown-item" href="/volunteer/"> Volunteer Opportunities</a></li>
                   <li><a class="dropdown-item" href="#"> Volunteer Policies</a></li>
+                </ul>
+            </li>
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle text-dark px-3" href="#" data-bs-toggle="dropdown">Community</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/eat-local/"> Eat local </a></li>
                 </ul>
             </li>
             <li className="nav-item dropdown">

@@ -19,8 +19,8 @@ const Bio = (props) => {
         <p>test@example.com</p>
       </div>
     </div>
-    <div class="col-8 d-flex align-middle">
-      <p>
+    <div class="col-8 d-flex align-items-center">
+      <p class="biography text-start">
         {bio}
       </p>
     </div>

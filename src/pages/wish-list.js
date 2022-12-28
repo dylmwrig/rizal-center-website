@@ -2,6 +2,8 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import img from "../images/bayanihan.jpg"
+
+import "../components/wish-list.css"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 

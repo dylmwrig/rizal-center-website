@@ -7,12 +7,15 @@ body {
 }
 
 .nameTitle{
-    font-size:18px;
+    font-size:16px;
     font-family:'Open Sans'
 }
 
-p {
+.biography{
     font-size:18px;
+}
+
+p {
     margin-bottom:0px;
 }
 

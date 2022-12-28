@@ -1,14 +1,15 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import img from "../images/get-involved.jpg"
+import img from "../images/bayanihan.jpg"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 
 const WishList = () => (
   <Layout>
     <div class="container w-50 my-5">
-      <h4 class="pb-3">The FACGC wish-list. Will you help?</h4>
+      <img src={img} alt="Bayanihan"/>
+      <h4 class="py-4">The FACGC wish-list. Will you help?</h4>
       <div class="text-start">
         <p class="">
  We're rebuilding our organization! And your generosity is much appreciated.  We need your help with in-kind donations to delver our programs, workshops, events, and to help our services at Rizal Community Center run smoothly and to serve our communities.

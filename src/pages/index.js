@@ -1,10 +1,9 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Slideshow from "../components/slideshow"
 import { Seo } from "../components/seo"
+
 import img1 from '../images/rizal-center.png'
 import img2 from '../images/rizal-center2.jpg'
 import img3 from '../images/rizal-center3.jpg'

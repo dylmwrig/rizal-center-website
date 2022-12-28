@@ -1,7 +1,6 @@
 import * as React from "react"
 
-import "./layout.scss"
-import "./slideshow.css"
+import "./slideshow.scss"
 
 const Slideshow = (props) => {
   const imgSplit = props.images.slice(1);

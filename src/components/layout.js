@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import logo from '../images/old-logo.png' //relative paths don't work in components, have to import
 import Navbar from "./navbar"
 import Footer from "./footer"
-import "./layout.scss"
+import "./style.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

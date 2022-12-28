@@ -15,8 +15,11 @@ import {Seo} from "../components/seo"
 
 const OurTeam = () => (
   <Layout>
-    <div class="container my-5">
-      <h3 class=" pb-3" style={{fontFamily:"Playfair Display"}}>Meet the board</h3>
+    <div id="bio" class="container my-5">
+      <div class="row">
+        <div class="col-4"/>
+        <h4 class="col-8 text-start pb-3" >MEET THE BOARD</h4>
+      </div>
       <Bio img={[jerry]}
            name="Jerry Clarito"
            title="Chairman"

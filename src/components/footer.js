@@ -1,6 +1,6 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import './footer.module.css'
+
+import './style.scss'
 
 const Footer = () => {
   return (
@@ -19,11 +19,11 @@ const Footer = () => {
           <p className="col-4 my-4 text-muted">1332 W IRVING PARK ROAD CHICAGO, ILLINOIS 60613</p>
         </div>
         <div className="d-flex justify-content-evenly pb-4">
-          <div><a href="#">Support</a></div>
-          <div><a href="#">Volunteer Opportunities</a></div>
-          <div><a href="#">Volunteer Policies</a></div>
+          <div><a href="/support/">Support</a></div>
+          <div><a href="/volunteer/">Volunteer Opportunities</a></div>
+          <div><a href="/policies/">Volunteer Policies</a></div>
           <div><a href="#">Privacy Statement</a></div>
-          <div><a href="#">Contact Us</a></div>
+          <div><a href="/contact/">Contact Us</a></div>
         </div>
       </div>
     </footer>

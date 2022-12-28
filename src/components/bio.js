@@ -1,7 +1,6 @@
 import * as React from "react"
 
-import "./layout.scss"
-import "./bio.css"
+import "../components/style.scss"
 
 const Bio = (props) => {
   const name = props.name
@@ -12,7 +11,7 @@ const Bio = (props) => {
   return (
    <div class="row py-2">
     <div class="col-4">
-      <img class="rounded pb-2" src={img}/>
+      <img class="rounded " src={img}/>
       <div class="nameTitle">
         <p class="fw-bold">{name}</p>
         <p>{title}</p>

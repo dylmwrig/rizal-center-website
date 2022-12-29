@@ -14,7 +14,7 @@ const Navbar = ({ siteTitle }) => {
   return (
     //<nav className="navbar navbar-expand-md navbar-dark bg-primary">
     <nav className="navbar navbar-expand-md">
-      <div className="container-fluid">
+      <div className="container">
         <ul className="navbar-nav mx-auto">
             <li className="nav-item">
               <a href="/" class="nav-link text-dark px-3">Home</a>

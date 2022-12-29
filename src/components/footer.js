@@ -5,10 +5,11 @@ import './style.scss'
 const Footer = () => {
   return (
     <footer>
-      <div className="container mx-auto">
-        <div className="d-flex justify-content-evenly my-4"> 
-          <p className="text-muted text-start">©2023 FILIPINO AMERICAN COUNCIL OF GREATER CHICAGO <br/>- ALL RIGHTS RESERVED.</p>
-          <div className="">
+      <div class="container-fluid">
+        <div class="row pt-5 pb-2">
+          <div class="col-1"/>
+          <p class="col-4 text-muted">©2023 FILIPINO AMERICAN COUNCIL OF<br/>GREATER CHICAGO - ALL RIGHTS RESERVED.</p>
+          <div class="col-2">
             <a href="https://www.facebook.com/facchicago">
               <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg"
                 alt="Follow us on Facebook!"
@@ -16,14 +17,17 @@ const Footer = () => {
               </img>
             </a>
           </div>
-          <p className="text-muted">1332 W IRVING PARK ROAD CHICAGO, ILLINOIS 60613</p>
+          <p class="col-4 text-muted">1332 W IRVING PARK ROAD<br/>CHICAGO, ILLINOIS 60613</p>
+          <div class="col-1"/>
         </div>
-        <div className="d-flex justify-content-evenly pb-4">
-          <div><a href="/support/">Support</a></div>
-          <div><a href="/volunteer/">Volunteer Opportunities</a></div>
-          <div><a href="/eat-local/">Eat Local</a></div>
-          <div><a href="#">Privacy Statement</a></div>
-          <div><a href="/contact/">Contact Us</a></div>
+        <div class="row pb-4">
+          <div class="col-1"/>
+          <div class="col-2"><a href="/support/">Support</a></div>
+          <div class="col-2"><a href="/volunteer/">Volunteer</a></div>
+          <div class="col-2"><a href="/eat-local/">Eat Local</a></div>
+          <div class="col-2"><a href="#">Privacy Statement</a></div>
+          <div class="col-2"><a href="/contact/">Contact Us</a></div>
+          <div class="col-1"/>
         </div>
       </div>
     </footer>

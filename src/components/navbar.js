@@ -19,6 +19,7 @@ const Navbar = ({ siteTitle }) => {
             <li className="nav-item">
               <a href="/" class="nav-link text-dark px-3">Home</a>
             </li>
+            <div class="vr"/>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-dark px-3" href="#" data-bs-toggle="dropdown">Support</a>
                 <ul class="dropdown-menu">
@@ -28,12 +29,14 @@ const Navbar = ({ siteTitle }) => {
                   <li><a class="dropdown-item" href="#"> Volunteer Policies</a></li>
                 </ul>
             </li>
+            <div class="vr"/>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-dark px-3" href="#" data-bs-toggle="dropdown">Community</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/eat-local/"> Eat local </a></li>
                 </ul>
             </li>
+            <div class="vr"/>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-dark px-2" href="#" data-bs-toggle="dropdown">About Us</a>
                 <ul class="dropdown-menu">

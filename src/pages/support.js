@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import img from "../images/get-involved.jpg"
 import Layout from "../components/layout"

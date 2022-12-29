@@ -1,7 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
-import img from "../images/bayanihan.jpg"
+import img from "../images/bayanihan.webp"
 
 import "../components/wish-list.css"
 import Layout from "../components/layout"
@@ -9,7 +8,7 @@ import {Seo} from "../components/seo"
 
 const WishList = () => (
   <Layout>
-    <div class="container w-50 my-5">
+    <div class="container my-5">
       <img src={img} alt="Bayanihan"/>
       <h4 class="py-4">The FACGC wish-list. Will you help?</h4>
       <div class="text-start">

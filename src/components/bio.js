@@ -15,7 +15,6 @@ const Bio = (props) => {
       <div class="nameTitle">
         <p class="fw-bold">{name}</p>
         <p>{title}</p>
-        <p>test@example.com</p>
       </div>
     </div>
     <div class="col-8 d-flex align-items-center">

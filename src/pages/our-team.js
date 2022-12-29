@@ -3,6 +3,7 @@ import * as React from "react"
 import jerry from "../images/about-us/jerry.jpeg"
 import corazon from "../images/about-us/corazon.png"
 import sally from "../images/about-us/sally.jpg"
+import willi from "../images/about-us/willi.jpg"
 import dennis from "../images/about-us/dennis.png"
 import carmen from "../images/about-us/carmen.jpg"
 import mae from "../images/about-us/mae.png"
@@ -39,6 +40,10 @@ const OurTeam = () => (
         name="Rizalina ”Sally” Velasco-Richmond"
         title="Secretary"
         biography="A native of Boac. Marinduque, Philippines. She moved to the USA in 1990. She worked as a child caregiver and continued her education to become a Montessori Teacher. She was a community organizer for the Alliance of Filipinos for Immigrant Rights and Empowerment (AFIRE) fighting for immigrant and domestic workers' rights until she retired in 2017. Sally’s love of teaching got her involved in the Rizal Heritage Center’s class on 'Basic Tagalog and Culture'. She taught the class to children and young professionals. She then became a member of the Board from 2014 to the present."/>
+      <hr/>
+      <Bio img={[willi]}
+        name="Willi R. Buhay"
+        biography="Willi was born and raised in Manila, Philippines. A graduate of San Beda University and the University of Santo Tomas (UST)  from the College of Architecture and Fine Arts. Willi furthered his studies on Museum Administration and Design at the International Center for Historic Preservation at Mt.Carroll, Illinois. He was the first Artistic Director for Design for the Folk Arts Theater, Cultural Center of the Philippines for 16 years. Taught at the University of the Philippines and UST. Joined his family in Chicago who lived here since the 1920s. Served the FACGC - Rizal Center as a member of the Board and Artist in residence for 29 years."/>
       <hr/>
       <Bio img={[dennis]}
         name="Dennis Cruz"

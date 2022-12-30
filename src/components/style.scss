@@ -37,15 +37,36 @@ a {
     font-size:18px;
 }
 
+//volunteer
+.volunteer > p{
+    color: $text-muted;
+}
+.volunteer > ul{
+    padding-left:40px;
+}
 
+.volunteer > ul, .volunteer > div > div > ul{
+    list-style: none;
+    color: $text-muted;
+}
+
+//all this just to allow muted text w/ regular bullets
+.volunteer > ul > li::before, .volunteer > div > div > ul > li::before{
+    content: "\2022";
+    color: black !important;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+// COMPONENTS
 //slideshow
 #slideLabel {
     background-color: #fef1e8;
     font-family: "Playfair Display";
     font-size:50px;
 }
-
-// COMPONENTS
 // navbar
 .navbar {
     //background-color: #f9cb0e !important;

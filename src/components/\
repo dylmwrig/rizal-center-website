@@ -81,5 +81,5 @@ Becoming a program volunteer at Rizal Center has many benefits. You’ll be join
 export default VolunteerOpportunities 
 
 export const Head = () => (
-    <Seo title="Volunteer Opportunities at the Rizal Heritage Center" />
+    <Seo title="Volunteer Opportunities at the Rizal Center" />
 )

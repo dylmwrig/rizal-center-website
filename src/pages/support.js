@@ -15,7 +15,7 @@ The Rizal Community Center, operated by the FACGC, relies on the generous suppor
         </p>
         <div class="col-4 text-center"> 
           <div class="d-block" id="imgCont">
-            <img src={img}  class="w-100 img-fluid" alt="Get involved!"/>
+            <img src={img} class="w-100 img-fluid" alt="Get involved!"/>
           </div>
         </div>
       </div>

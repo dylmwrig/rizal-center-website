@@ -37,12 +37,6 @@ a {
     font-size:18px;
 }
 
-//eat-local
-.info{
-    background-color:#fef1e8;
-    font-size:18px;
-}
-
 //volunteer
 .volunteer > p{
     color: $text-muted;
@@ -73,6 +67,14 @@ a {
     font-family: "Playfair Display";
     font-size:50px;
 }
+
+//infobox
+#info{
+    background-color:#fef1e8;
+    font-size:18px;
+    white-space: pre-wrap;
+}
+
 // navbar
 .navbar {
     //background-color: #f9cb0e !important;

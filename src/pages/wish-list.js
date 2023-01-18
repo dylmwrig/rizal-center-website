@@ -2,7 +2,7 @@ import * as React from "react"
 
 import img from "../images/bayanihan.webp"
 
-import "../components/wish-list.css"
+import "../components/style.scss"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 

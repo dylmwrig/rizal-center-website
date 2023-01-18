@@ -1,9 +1,9 @@
 {
-  "name": "@r-ichard/gatsby-starter-bootstrap-5",
-  "private": false,
-  "description": "A simple starter to get up and developing quickly with Gatsby 5 and Bootstrap 5",
-  "version": "2.0.2",
-  "author": "Richard Raduly <richard@raduly.fr>",
+  "name": "Rizal Center Website",
+  "private": true,
+  "description": "Website for the Rizal Center in Chicago",
+  "version": "",
+  "author": "Dylan Wright <dylmwrig@gmail.com>",
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.2",

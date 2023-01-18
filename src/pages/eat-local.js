@@ -2,12 +2,17 @@ import * as React from "react"
 
 import img from "../images/eat-local.jpg"
 
+import InfoBox from "../components/info-box.js"
+
 import "../components/wish-list.css"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 
 const EatLocal = () => (
   <Layout>
+    <div class="">
+      <img src={img} alt="Filipino food"/>
+    </div>
     <div class="container my-5 text-start">
       <div class="row">
         <h5>PLEASE SUPPORT OUR COMMUNITY BY EATING LOCAL!</h5>
@@ -33,18 +38,12 @@ const EatLocal = () => (
           </p>
         </div>
         <div class="col-4">
-          <img src={img} alt="Filipino food"/>
+        <InfoBox 
+          info={["This list is by no means comprehensive — but it's a start. If you know of a restaurant or bar that should be added to the list or an update is needed, please let us know and we will be happy to do.  Just send us a message on our Contact Us form.   You can also email us at hello@rizalcenterchicago.org.",
+          "The Filipino American Council of Greater Chicago is providing this information solely as a community service.",
+          "Happy eating!"]}
+          link={true}/>
         </div>
-      </div>
-      <div class="row pt-3">
-        <div class="col-6 text-muted fw-light info">
-          <p class="p-3">
-            This list is by no means comprehensive — but it's a start. If you know of a restaurant or bar that should be added to the list or an update is needed, please let us know and we will be happy to do.  Just send us a message on our Contact Us form.   You can also email us at hello@rizalcenterchicago.org.<br/><br/> 
-            The Filipino American Council of Greater Chicago is providing this information solely as a community service.<br/><br/>
-            Happy eating!
-          </p>
-        </div>
-        <div class="col-6"/>
       </div>
     </div>
   </Layout>

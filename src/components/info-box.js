@@ -8,13 +8,10 @@ const InfoBox = (props) => {
   const link = props.link
   
   return (
-   <div id="info" class="py-3 text-muted fw-light">
+    <div id="info" class="px-4 pb-2 pt-3 text-muted fw-light">
       {info.map(function(par, i){
         return(
-          <p class="px-4 py-3">
-            {par}
-            <br/>
-          </p>)
+          <p>{par}</p>)
         })}
    </div>
   )

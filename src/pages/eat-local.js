@@ -10,13 +10,10 @@ import {Seo} from "../components/seo"
 
 const EatLocal = () => (
   <Layout>
-    <div class="">
-      <img src={img} alt="Filipino food"/>
-    </div>
     <div class="container my-5 text-start">
       <div class="row">
-        <h5>PLEASE SUPPORT OUR COMMUNITY BY EATING LOCAL!</h5>
         <div class="col-8">
+          <h5>PLEASE SUPPORT OUR COMMUNITY BY EATING LOCAL!</h5>
           <p class="fw-light text-muted">
             A Taste of Philippines, 131 N Clinton Street<br/>          
             Bayan Ko, 1810 W Montrose Avenue<br/>
@@ -38,6 +35,7 @@ const EatLocal = () => (
           </p>
         </div>
         <div class="col-4">
+        <img class="pb-2" src={img} alt="Filipino food"/>
         <InfoBox 
           info={["This list is by no means comprehensive — but it's a start. If you know of a restaurant or bar that should be added to the list or an update is needed, please let us know and we will be happy to do.  Just send us a message on our Contact Us form.   You can also email us at hello@rizalcenterchicago.org.",
           "The Filipino American Council of Greater Chicago is providing this information solely as a community service.",

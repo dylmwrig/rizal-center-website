@@ -2,8 +2,6 @@ import * as React from "react"
 import { useRef } from 'react';
 
 import emailjs from '@emailjs/browser';
-import { Helmet } from "react-helmet"
-//import { GoogleFormProvider, useGoogleForm } from "react-google-forms-hooks";
 
 import "../components/style.scss"
 
@@ -26,36 +24,30 @@ const ContactForm = (props) => {
   }
 
   return (
-    <div class="row">
-      <h5>Contact us</h5>
+    <div class="">
       <form class="" ref={form} onSubmit={sendEmail}>
-        <input type='text' placeholder='Name' name='user_name' />
-        <input type='email' placeholder='Email address' name='user_email' />
-        <textarea name='message' type='text' placeholder='message' />
-        <button type="submit" value="Submit">Submit</button>
+        <div class="row py-1 form-group">
+          <div class="form-outline col-6">
+            <label class="form-label" for="fnameInput">First Name</label>
+            <input class="form-control" id="fnameInput" type='text' placeholder='First Name' name='first_name' />
+          </div>
+          <div class="col-6">
+          <label class="form-label" for="lnameInput">Last Name</label>
+          <input class="form-control" id="lnameInput" type='text' placeholder='Last Name' name='last_name' />
+          </div>
+        </div>
+        <div class="py-1 form-group">
+          <label class="form-label" for="emailInput">Email</label>
+          <input class="form-control" id="emailInput" type='email' placeholder='Email address' name='user_email' />
+        </div>
+        <div class="py-1 form-group">
+          <label class="form-label" for="msgInput">Your message</label>
+          <textarea class="form-control" id="msgInput" name='message' type='text' placeholder='Message' />
+        </div>
+        <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
       </form>
     </div>
   )
 }
 
 export default ContactForm
-
-//      <Helmet>
-//        <script type="text/javascript"
-//                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-//        </script>
-//        <script type="text/javascript">
-//          {function(){
-//              emailjs.init("0WnMAOVQ8zkteNMkx");
-//           }}
-//        </script>
-//      </Helmet>
-
-      //<form method="POST"
-      //  action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSepzxWNRJb7vCJtz1eDYKlc75c6cvrzCQl9eZ-xKN6P7weqPw/formResponse">
-      //  <input class="input" type="text" name="entry.2005620554"/>
-      //  <input class="input" type="text" name="entry.1696715197"/>
-      //  <input class="input" type="email"name="entry.1045781291" />
-      //  <input class="input" type="text" name="entry.839337160"/>
-      //  <button class="button" type="submit">Submit</button>
-      //</form>

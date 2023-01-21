@@ -2,6 +2,7 @@
 $primary: #663399;
 @import "~bootstrap/scss/bootstrap";
 
+
 // PAGES 
 // general
 body {
@@ -20,8 +21,8 @@ a {
     font-family: "Open Sans";
 }
 
-p {
-    font-family: "Open Sans";
+.fancy{
+    font-family: "Playfair Display";
 }
 
 // bio 

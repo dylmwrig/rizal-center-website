@@ -30,7 +30,7 @@ const Contact = () => (
         </div>
         <div class="col-1"/>
         <div class="col-6">
-          <p>You can also reach us via email by using form and we will get back to you as soon as possible.</p>
+          <p>You can also reach us via email by using this form and we will get back to you as soon as possible.</p>
           <ContactForm />
         </div>
       </div>

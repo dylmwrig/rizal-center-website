@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 import emailjs from '@emailjs/browser';
 
@@ -7,6 +7,7 @@ import "../components/style.scss"
 
 const ContactForm = (props) => {
   const form = useRef();
+  const [volForm, setForm] = useState(false);
   
   const sendEmail = (e) => {
     e.preventDefault();

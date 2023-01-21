@@ -6,11 +6,11 @@ $primary: #663399;
 // general
 body {
     font-size: 22px;
-    font-family: "Playfair Display";
-    //font-family: "Open Sans";
+    //font-family: "Playfair Display";
+    font-family: "Open Sans";
 }
 
-h3,h4,h5 {
+h3,h4 {
     //font-family: "Open Sans"
     font-family: "Playfair Display"
 }
@@ -43,8 +43,11 @@ p {
 }
 
 //volunteer
-.volunteer > p{
-    color: $text-muted;
+//.volunteer > p{
+//    color: $text-muted;
+//}
+.volunteer > h4{
+    font-family: "Open Sans";
 }
 .volunteer > ul{
     padding-left:40px;
@@ -52,7 +55,7 @@ p {
 
 .volunteer > ul, .volunteer > div > div > ul{
     list-style: none;
-    color: $text-muted;
+    //color: $text-muted;
 }
 
 //all this just to allow muted text w/ regular bullets

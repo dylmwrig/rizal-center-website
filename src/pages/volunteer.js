@@ -13,14 +13,14 @@ const VolunteerOpportunities = () => (
     <div class="container my-5 ">
       <img class="text-center pb-4" src={volImg3} alt="We love our volunteers!"/>
       <div class="row volunteer text-start">
-        <h5>VOLUNTEERING</h5>
+        <h4>VOLUNTEERING</h4>
         <p> 
 Volunteering is a great way to make a difference and get to know our diverse community. We are always recruiting enthusiastic volunteers, and make the most of your time and skills to accomplish FACC's mission and purposes.<br/>
 Program roles often require the ability to volunteer on a regular schedule: the same day and time each week. We generally ask for a minimum of a six-month commitment when volunteering in a program.<br/>
         </p>
+        <h4 class="pt-3">REQUIREMENTS FOR VOLUNTEERS 21 YEARS AND OLDER:</h4> 
         <div class="row">
           <div class="col-8 py-4">
-            <h5 class="">REQUIREMENTS FOR VOLUNTEERS 21 YEARS AND OLDER:</h5> 
             <ul>
               <li>Be fluent in English and/or Tagalog</li>
               <li>Reside in the greater Chicago area.</li>
@@ -35,7 +35,7 @@ Program roles often require the ability to volunteer on a regular schedule: the 
           </div>
         </div>
   
-        <h5 class="pb-2">ADDITIONAL REQUIREMENTS FOR VOLUNTEERS 18 YEARS AND YOUNGER:</h5> 
+        <h4 class="pb-2">ADDITIONAL REQUIREMENTS FOR VOLUNTEERS 18 YEARS AND YOUNGER:</h4> 
         <div class="row mb-4">
           <div class="col-4">
             <img src={volImg} alt="Boy Scouts Volunteering Opportunity"/>
@@ -47,13 +47,13 @@ Program roles often require the ability to volunteer on a regular schedule: the 
               <li>Volunteers under the age of 16 must be accompanied and actively supervised by a parent or legal guardian.</li>
               <li>We require one (1) adult chaperone per every ten (10) volunteers age 18 or under.</li>
             </ul>
-            <p class="text-muted">
+            <p class="">
               To discuss youth volunteer opportunities, please contact Sally Velasco at sallyvelascor@yahoo.com.
             </p>
           </div>
         </div>
 
-        <h5>BENEFITS</h5>
+        <h4 class="pt-3">BENEFITS</h4>
         <p>
 Becoming a program volunteer at Rizal Center has many benefits. You’ll be joining a team of volunteers and staff working together to build community and write the next chapter of our organization. Here are some of the benefits volunteering can provide:<br/>
         </p>
@@ -67,7 +67,7 @@ Becoming a program volunteer at Rizal Center has many benefits. You’ll be join
           Please review the position descriptions before applying. Listed are some volunteer positions that become available most frequently. 
         </p>
 
-        <h5>VOLUNTEER ORIENTATION</h5>
+        <h4 class="pt-3">VOLUNTEER ORIENTATION</h4>
         <p>
           The first step in becoming a FACGC volunteer is attending a New Volunteer Orientation where you will learn about FACGC and the Rizal Community Center, and the many ways you can help as a volunteer.<br/><br/>
           In the meantime, if you have a skill or energy to spare and share,  please tell us.  We have a long list of tasks in our rewriting of the next chapter of the Rizal Community Center!  Email to sallyvelascor@yahoo.com or call 1-773-541-1725.<br/><br/>

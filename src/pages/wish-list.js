@@ -9,10 +9,10 @@ import {Seo} from "../components/seo"
 const WishList = () => (
   <Layout>
     <div class="container my-5">
-      <img src={img} alt="Bayanihan"/>
-      <h4 class="py-4">The FACGC wish-list. Will you help?</h4>
       <div class="text-start">
-        <p class="">
+      <div class="row">
+      <h3 class="py-4">The FACGC wish-list. Will you help?</h3>
+      <p class="col-7">
  We're rebuilding our organization! And your generosity is much appreciated.  We need your help with in-kind donations to delver our programs, workshops, events, and to help our services at Rizal Community Center run smoothly and to serve our communities.
 <br/><br/>
 Please consider hosting a donation drive for us! If you have any of these items below to donate, please contact us at 773-541-1725 or sallyvelascor@yahoo.com, to schedule drop-off. Thank you in advance for your support!
@@ -20,6 +20,10 @@ Please consider hosting a donation drive for us! If you have any of these items 
 Would you like to help out? We’ll gladly accept any of the following:
 <br/>
 </p>
+      <div class="col-1"/>
+      <img class="col-4" src={img} alt="Bayanihan"/>
+      </div>
+<br/><br/>CONTACT FORM GOES HERE!<br/><br/><br/>
 <p class="fw-bold"> Paper Needs:<br/></p>
 <p>
 Copy paper<br/>

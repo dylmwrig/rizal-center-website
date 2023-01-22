@@ -38,7 +38,7 @@ The Rizal Community Center is a multicultural, multigenerational community and c
         <div class="row py-4">
           <div class="col-6">
           <h3 class="pb-2">Join the fun of collective (Bayanihan) work!</h3>
-          <p class="">
+          <p>
 During the last three months, members of the Bayanihan Volunteer Corps put back the auditorium to its rightful place - a safe place for community members to hold dancing, celebrate happy and memorable events, hold forums, or just hang out. We look forward to 2023 to open more programs from health education and training to senior citizens' wellness and recreational programs. <br/>
 Of course, we welcome program suggestions from you. 
 Please   send your suggestions to rizalcenterchicago@gmail.com. Mabuhay! 

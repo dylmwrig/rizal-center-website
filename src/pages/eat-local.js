@@ -8,30 +8,12 @@ import "../components/wish-list.css"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 
-          <p class="fw-light text-muted">
-            A Taste of Philippines, 131 N Clinton Street<br/>          
-            ,             Boonie Foods Revival Food Hall, 
-            , 
-            , 
-            , 
-            , 
-            , 
-            , 
-            , 
-            , 
-            , 
-            , 
-            , 
-            , 
-            , 
-            , 
-          </p>
 const EatLocal = () => (
   <Layout>
     <div class="container my-5"> 
       <div class="row">
+        <h4 class="text-start">Please support our community by eating local!</h4>
         <div class="col-7">
-          <h5 class="text-start">PLEASE SUPPORT OUR COMMUNITY BY EATING LOCAL!</h5>
           <div class="fancy row pt-3">
             <div class="fst-italic col-6 text-start">
               A Taste of Philippines<br/>

@@ -26,7 +26,7 @@ const Footer = () => {
           <div class="col-2"><a href="/volunteer/">Volunteer</a></div>
           <div class="col-2"><a href="/contact/">Contact Us</a></div>
           <div class="col-2"><a href="#">Privacy Statement</a></div>
-          <div class="col-2"><a href="/contact/">Contact Us</a></div>
+          <div class="col-2"><a href="/policies/">Policies</a></div>
           <div class="col-1"/>
         </div>
       </div>

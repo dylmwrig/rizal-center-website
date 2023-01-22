@@ -46,7 +46,7 @@ const Navbar = ({ siteTitle }) => {
                   <li><a class="dropdown-item" href="/our-team/"> Our Team </a></li>
                   <li><a class="dropdown-item" href="/jose-rizal/"> For Whom It Is Named</a></li>
                   <li><a class="dropdown-item" href="#"> Celebrating Rizal Center</a></li>
-                  <li><a class="dropdown-item" href="#"> Policies</a></li>
+                  <li><a class="dropdown-item" href="/policies/"> Policies</a></li>
                   <li><a class="dropdown-item" href="#"> Privacy Statement</a></li>
                 </ul>
             </li>

@@ -32,7 +32,7 @@ const EatLocal = () => (
       <div class="row">
         <div class="col-7">
           <h5 class="text-start">PLEASE SUPPORT OUR COMMUNITY BY EATING LOCAL!</h5>
-          <div class="fancy row pt-2">
+          <div class="fancy row pt-3">
             <div class="fst-italic col-6 text-start">
               A Taste of Philippines<br/>
               Bayan Ko<br/>
@@ -52,7 +52,7 @@ const EatLocal = () => (
               Uncle Mike's Place<br/>
               Wake n' Bacon<br/>
             </div>
-            <div class="fancy col-6 text-end">
+            <div class="fancy fst-italic col-6 text-end">
               131 N Clinton Street<br/>          
               1810 W Montrose Avenue<br/>
               125 S. Clark Street<br/>

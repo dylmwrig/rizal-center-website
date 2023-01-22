@@ -2,7 +2,7 @@ import * as React from "react"
 
 import "../components/style.scss"
 
-//currently only link goes to contact page
+//{link ? <p>display link</p>:<br/>}
 const InfoBox = (props) => {
   const info = props.info
   const link = props.link
@@ -13,12 +13,7 @@ const InfoBox = (props) => {
         return(
           <p>{par}</p>)
         })}
-      {link 
-        ? <a class="btn btn-primary mb-2"  
-             role="button"
-             href="/contact/">Contact Us</a>
-        : <p></p>}
-   </div>
+    </div>
   )
 }
 

@@ -2,6 +2,8 @@ import * as React from "react"
 
 import img from "../images/get-involved.jpg"
 
+import InfoBox from "../components/info-box.js"
+
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 
@@ -40,7 +42,7 @@ In the event that severe winter weather is expected to last through the night an
           <p>All items turned in will be date tagged. Valuable items will be turned over to the Chicago Police Department after seven days and all other items will be donated after 30 days of tag date. 
           </p><br/>
           <h4>Early Closure</h4>
-          <p>Staff shall have discretion to close the facility in case of a building emergency or inclement weather. Information will be posted on the organization's website, www.rizalcenterchicago.org .
+          <p>Staff shall have discretion to close the facility in case of a building emergency or inclement weather. Information will be posted on the organization's website, www.rizalcenterchicago.org.
           </p><br/>
           <h4>Hold Harmless and Indemnification</h4>
           <p>Space users shall indemnify and hold harmless the Filipino American Council of Greater Chicago from any and all damage, loss, or liability of any kind whatsoever occasioned upon and/or within the rented/sponsored premises, or ways, walks or concourse adjacent thereto, by reason of any injury or property of third persons occasioned by any act or omission, neglect, or wrongdoing of the Space  User or any of his/her and/or its officers, agents, representatives, assigns, guests, employees, invitees, or other person admitted and/or invited by the Space User to the premises, and the Space User will at his/her and/or its own cost and expense, defend and protect the Filipino American Council of Greater Chicago against any and all such claims or demands. The Space User further agrees to exercise due care in the preservation of the premises and to prevent loitering and presence of unauthorized persons during all usage periods. 
@@ -58,8 +60,7 @@ In the event that severe winter weather is expected to last through the night an
           <h4>Harassment-Free FACGC Reporting Process</h4>
           <p>If you have been subjected to or witness to a violation of the FACC's Non-Discrimination and Harassment Policy, the FACC encourages you to report the incident. If you are unsure of how to report, the FACC's executive director can help you get to the right place. If you feel that you or someone else is in immediate danger, please call 911 or contact the FACC executive director.<br/><br/>
             If you are not sure if you want to make a report,  participants and visitors are still entitled to receive confidential and free emotional support with the FACC. Patrons and visitors who wish to report an incident of harassment can contact the FACC executive director.<br/><br/>
-            If you need to correspond with the Filipino American Council of Greater Chicago, email at rizalcenterchicago@gmail.com.
-          </p><br/>
+          </p>
           <h4>Prohibited Behavior</h4>
           <p>The FACGC prohibits any form of harassment, sexual or in other forms, as set forth in its Non-Discrimination and Harassment Policy (above).<br/>
              Accordingly, some behaviors are specifically prohibited, whether directed at other members, patrons, visitors, attendees, FACC sponsors, funders, staff, volunteers, speakers, facilitators, mentors, exhibitors, or event venue staff.<br/><br/>
@@ -93,7 +94,16 @@ In the event that severe winter weather is expected to last through the night an
             <li>Service animals specifically trained to perform support tasks are welcome in the Rizal Community Center.</li>
           </ul>
 
-        <h1>QUESTIONS? CONTACT FORM GOES HERE</h1>
+        <div class="row">
+          <div class="col-6">
+          <InfoBox
+            info={["Questions or concerns about our policies?",
+                   "Send us a message and we will be happy to address your concerns."]}
+            link={true}/>
+          </div>
+          <div class="col-6"/>
+        </div>
+        
         </div>
         <div class="col-2"/>
       </div>

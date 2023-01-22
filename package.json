@@ -1,8 +1,8 @@
 {
-  "name": "Rizal Center Website",
+  "name": "RizalCenterWebsite",
   "private": true,
   "description": "Website for the Rizal Center in Chicago",
-  "version": "",
+  "version": "1.0",
   "author": "Dylan Wright <dylmwrig@gmail.com>",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

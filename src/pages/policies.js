@@ -23,7 +23,7 @@ const Policies = () => (
         <div class="col-2"/>
         <div class="col-8">
           <h4>Zero-tolerance Policy</h4>
-          <p class="">
+          <p>
             Purpose<br/>
             The health, safety and well being of every patron utilizing the Rizal Community Center is our primary objective. Respect for our Rizal Community Center staff, volunteers, patrons and the facility is paramount.<br/>
             Policy<br/>

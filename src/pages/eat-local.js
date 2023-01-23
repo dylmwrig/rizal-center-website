@@ -13,8 +13,8 @@ const EatLocal = () => (
   <Layout>
     <div class="container my-5"> 
       <div class="row">
-        <h4 class="text-start">Please support our community by eating local!</h4>
         <div class="col-7">
+        <h4 class="text-start">Please consider supporting Chicago's Filipino community by eating at one of the following:</h4>
           <div class="fancy row pt-3">
             <div class="fst-italic col-6 text-start">
               A Taste of Philippines<br/>

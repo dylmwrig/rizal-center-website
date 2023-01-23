@@ -11,7 +11,7 @@ const VolunteerPolicies = () => (
     <div class="container my-5 ">
       <div class="row text-start">
         <h5 class="fw-bold">VOLUNTEER POLICIES</h5>
-        <p class="">
+        <p>
           Volunteers are significant members of our team. Teams work together to provide the best services and experience possible to our visitors. We want your participation to be beneficial and rewarding. Your loyalty and dedication towards furthering the reputation and integrity of the Filipino American Council of Greater Chicago (FACGC) are of the utmost importance.<br/>
         </p>
         

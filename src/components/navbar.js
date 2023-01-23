@@ -34,6 +34,7 @@ const Navbar = ({ siteTitle }) => {
               <a className="nav-link dropdown-toggle text-dark px-3" href="#" data-bs-toggle="dropdown">Community</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/eat-local/"> Eat local </a></li>
+                  <li><a class="dropdown-item" href="/news-feed/"> Filipino News </a></li>
                   <li><a class="dropdown-item" href="/celebrating-rizal.js"> Celebrating Rizal Center </a></li>
                 </ul>
             </li>

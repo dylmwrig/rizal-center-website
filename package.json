@@ -51,5 +51,6 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "homepage": "https://github.com/r-ichard/gatsby-starter-bootstrap-5#readme",
-  "main": "gatsby-browser.js"
+  "main": "gatsby-browser.js",
+  "proxy": "http://localhost:8000"
 }

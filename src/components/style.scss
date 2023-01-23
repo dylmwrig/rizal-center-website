@@ -48,6 +48,16 @@ a {
     font-size:18px;
 }
 
+//about
+#about > div > p, #about > div > div > div > p{ 
+    font-size:18px;
+}
+
+#aboutImgs > div > p{
+    font-size:16px;
+    color: $text-muted;
+}
+
 //policies
 .policies > div > div > p{
     color: $text-muted;

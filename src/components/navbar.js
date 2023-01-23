@@ -41,7 +41,7 @@ const Navbar = ({ siteTitle }) => {
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-dark px-2" href="#" data-bs-toggle="dropdown">About Us</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#"> About Us </a></li>
+                  <li><a class="dropdown-item" href="/about/"> About Us </a></li>
                   <li><a class="dropdown-item" href="/contact/"> Contact Us </a></li>
                   <li><a class="dropdown-item" href="/our-team/"> Our Team </a></li>
                   <li><a class="dropdown-item" href="/jose-rizal/"> For Whom It Is Named</a></li>

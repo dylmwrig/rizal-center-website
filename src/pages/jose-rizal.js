@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import rizalImg from "../images/rizal.webp"
+import rizalImg from "../images/rizal.jpg"
 
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"

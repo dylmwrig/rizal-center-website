@@ -18,15 +18,30 @@ const Contact = () => (
           <p>1332 W. Irving Park Road, Chicago, IL 60613, US
              sallyvelascor@yahoo.com (1 773-541-1725)</p>
           <p class="fw-bold">Hours By Appointment</p>
-          <p>
-            Mon   Closed<br/>
-            Tue   12:00 pm - 05:00 pm<br/>
-            Wed   12:00 pm - 05:00 pm<br/>
-            Thu   12:00 pm - 05:00 pm<br/>
-            Fri   12:00 pm - 05:00 pm<br/>
-            Sat   09:00 am - 02:00 pm<br/>
-            Sun   09:00 am - 02:00 pm
-          </p>
+          <div class="row">
+            <div class="col-2">
+              <p>
+                Mon<br/>   
+                Tue<br/>   
+                Wed<br/>   
+                Thu<br/>   
+                Fri<br/>   
+                Sat<br/>   
+                Sun<br/>   
+              </p>
+            </div>
+            <div class="col-8">
+              <p>
+                Closed<br/>
+                12pm - 5pm<br/>
+                12pm - 5pm<br/>
+                12pm - 5pm<br/>
+                12pm - 5pm<br/>
+                9am - 2pm<br/>
+                9am - 2pm
+              </p>
+            </div>
+          </div>
         </div>
         <div class="col-1"/>
         <div class="col-6">

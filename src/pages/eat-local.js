@@ -5,6 +5,7 @@ import img from "../images/eat-local.jpg"
 import InfoBox from "../components/info-box.js"
 
 import "../components/wish-list.css"
+import "../components/style.scss"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 

@@ -2,6 +2,20 @@
  * Implement Gatsby's Node APIs in this file.
  *
  * See: https://www.gatsbyjs.com/docs/node-apis/
+*
+*
+      tagline: String @shout
+      date: Date @dateformat
+      image: File @fileByRelativePath 
+*
  */
-
-// You can delete this file if you're not using it
+//exports.createSchemaCustomization = ({ actions }) => {
+//  const { createTypes } = actions
+//
+//  const typeDefs = `
+//    type inqRSS implements Node {     
+//      title: String
+//    }
+//  `
+//  createTypes(typeDefs)
+//}

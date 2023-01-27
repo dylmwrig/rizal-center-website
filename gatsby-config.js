@@ -7,11 +7,19 @@ module.exports = {
   plugins: [
     {resolve: "gatsby-plugin-parse-rss",
      options: {
+        // : translates to _ when converted to a graphQL property
+        // > becomes ___
         rss: [
         {
           urlToFetch: "https://www.youtube.com/feeds/videos.xml?channel_id=UChqlNb3LpXclrYsIXzD2q_w",
           selectors: ["media:title", "media:thumbnail", "entry > link"],
           name: "youTubeRSS", 
+        },
+        {
+          urlToFetch: "https://www.inquirer.net/fullfeed",
+          //selectors: ["title", "item > title", "item > link"],
+          selectors: ["title"],
+          name: "inqRSS", 
         }]
       }},
     `gatsby-plugin-image`,

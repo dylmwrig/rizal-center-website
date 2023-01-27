@@ -12,18 +12,40 @@ const RSSFeed = (props) => {
   var x;
 
   const data = useStaticQuery(graphql`
-  {allYouTubeRss {
+    {allInqRss {
       nodes {
-        media_title
-        media_thumbnail
+        title   
       }
-  }}
-`)
+    }}
+  `)
+
+  //const data = useStaticQuery(graphql`
+  //{allYouTubeRss {
+  //    nodes {
+  //      media_title
+  //      media_thumbnail
+  //    }
+  //}}
+  //`)
 
   //useEffect(() => {
   //  console.log('sup bitches');
   //});
 
+  return (
+    <div> 
+    <ul>      
+      {data.allInqRss.nodes[0].title.map(el => (
+        <li>{el}</li>
+      ))}
+    </ul>
+    </div>
+  )
+}
+
+
+
+export default RSSFeed
   //axios
 	//.get("https://cors-anywhere.herokuapp.com/https://www.inquirer.net/fullfeed/", {
 	//	"Content-Type": "application/xml; charset=utf-8"
@@ -49,15 +71,4 @@ const RSSFeed = (props) => {
   //    console.log(res);
   //  });
 
-  return (
-    <div> 
-    <ul>
-      {data.allYouTubeRss.nodes[0].media_title.map(el => (
-        <li>{el}</li>
-      ))}
-    </ul>
-    </div>
-  )
-}
 
-export default RSSFeed

@@ -1,9 +1,8 @@
 import * as React from "react"
 
+import RSSFeed from "../components/rss-feed.js"
+
 import "../components/style.scss"
-
-import RSSFeed from "../components/rss-feed"
-
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 

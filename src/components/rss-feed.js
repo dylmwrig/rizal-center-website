@@ -14,7 +14,8 @@ const RSSFeed = (props) => {
   const data = useStaticQuery(graphql`
     {allInqRss {
       nodes {
-        title   
+        title 
+        guid
       }
     }}
   `)
@@ -36,6 +37,9 @@ const RSSFeed = (props) => {
     <div> 
     <ul>      
       {data.allInqRss.nodes[0].title.map(el => (
+        <li>{el}</li>
+      ))}
+      {data.allInqRss.nodes[0].guid.map(el => (
         <li>{el}</li>
       ))}
     </ul>

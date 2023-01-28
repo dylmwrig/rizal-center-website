@@ -9,13 +9,14 @@
       image: File @fileByRelativePath 
 *
  */
-//exports.createSchemaCustomization = ({ actions }) => {
-//  const { createTypes } = actions
-//
-//  const typeDefs = `
-//    type inqRSS implements Node {     
-//      title: String
-//    }
-//  `
-//  createTypes(typeDefs)
-//}
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+
+  const typeDefs = `
+    type inqRSS implements Node {     
+      title: [String!]!
+      guid: [String!]!
+    }
+  `
+  createTypes(typeDefs)
+}

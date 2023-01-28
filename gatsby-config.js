@@ -13,13 +13,13 @@ module.exports = {
         {
           urlToFetch: "https://www.youtube.com/feeds/videos.xml?channel_id=UChqlNb3LpXclrYsIXzD2q_w",
           selectors: ["media:title", "media:thumbnail", "entry > link"],
-          name: "youTubeRSS", 
+          name: "youTubeRSS" 
         },
         {
           urlToFetch: "https://www.inquirer.net/fullfeed",
           //selectors: ["title", "item > title", "item > link"],
-          selectors: ["title"],
-          name: "inqRSS", 
+          selectors: ["title", "guid"],
+          name: "inqRSS"
         }]
       }},
     `gatsby-plugin-image`,

@@ -18,7 +18,7 @@ module.exports = {
         {
           urlToFetch: "https://www.inquirer.net/fullfeed",
           //selectors: ["title", "item > title", "item > link"],
-          selectors: ["title", "guid"],
+          selectors: ["title", "guid", "media:content"],
           name: "inqRSS"
         }]
       }},

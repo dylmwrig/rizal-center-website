@@ -11,11 +11,13 @@ const RSSFeed = (props) => {
   const [XML, setXML] = useState(null);
   var x;
 
+        //media_content
   const data = useStaticQuery(graphql`
     {allInqRss {
       nodes {
         title 
         guid
+        media_content
       }
     }}
   `)

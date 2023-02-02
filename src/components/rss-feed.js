@@ -12,15 +12,15 @@ const RSSFeed = (props) => {
   var x;
 
         //media_content
-  const data = useStaticQuery(graphql`
-    {allInqRss {
-      nodes {
-        title 
-        guid
-        media_content
-      }
-    }}
-  `)
+  //const data = useStaticQuery(graphql`
+  //  {allInqRss {
+  //    nodes {
+  //      title 
+  //      guid
+  //      media_content
+  //    }
+  //  }}
+  //`)
 
   //const data = useStaticQuery(graphql`
   //{allYouTubeRss {
@@ -35,16 +35,18 @@ const RSSFeed = (props) => {
   //  console.log('sup bitches');
   //});
 
+
+  //<ul>      
+  //  {data.allInqRss.nodes[0].title.map(el => (
+  //    <li>{el}</li>
+  //  ))}
+  //  {data.allInqRss.nodes[0].guid.map(el => (
+  //    <li>{el}</li>
+  //  ))}
+  //</ul>
+
   return (
     <div> 
-    <ul>      
-      {data.allInqRss.nodes[0].title.map(el => (
-        <li>{el}</li>
-      ))}
-      {data.allInqRss.nodes[0].guid.map(el => (
-        <li>{el}</li>
-      ))}
-    </ul>
     </div>
   )
 }

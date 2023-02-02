@@ -9,6 +9,7 @@
       image: File @fileByRelativePath 
 *
  */
+/*
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
 
@@ -20,3 +21,4 @@ exports.createSchemaCustomization = ({ actions }) => {
   `
   createTypes(typeDefs)
 }
+*/

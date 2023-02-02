@@ -12,20 +12,56 @@ import "../components/style.scss"
 const PDFViewer = (props) => {
   //const [file, setFile] = useState('../newsletter/BayanihanNews2.1.pdf');
 
+  const [pageNum, setPageNum] = useState(1);
   const [numPages, setNumPages] = useState(null);
 
   //function onFileChange(event) {
   //  setFile(event.target.files[0]);
   //}
 
-  function onDocumentLoadSuccess({ numPages: nextNumPages }) {
-    setNumPages(nextNumPages);
+  function onDocumentLoadSuccess({ numPages: numPages }) {
+    setNumPages(numPages);
+    setPageNum(1);
+  }
+
+  function changePage(offset) {
+    setPageNum(prevPageNumber => prevPageNumber + offset);
+  }
+
+  function previousPage() {
+    changePage(-1);
+  }
+
+  function nextPage() {
+    changePage(1);
   }
   
   return (
-    <Document file={pdf}>
-      <Page pageNumber={1}/>
-    </Document>
+    <div>
+      <Document file={pdf}
+        onLoadSuccess={onDocumentLoadSuccess}>
+        <Page pageNumber={pageNum}/>
+      </Document>
+      <div>
+          <p>
+            Page {pageNum || (numPages ? 1 : '--')} of {numPages || '--'}
+          </p>
+          <button
+            type="button"
+            disabled={pageNum<= 1}
+            onClick={previousPage}
+          >
+            Previous
+          </button>
+          <button
+            type="button"
+            disabled={pageNum>= numPages}
+            onClick={nextPage}
+          >
+            Next
+          </button>
+      </div>
+    </div>
   )
 }
       //onLoadSuccess={onDocumentLoadSuccess}>

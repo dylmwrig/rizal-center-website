@@ -15,7 +15,8 @@ const EatLocal = () => (
       <div class="row">
         <div class="col-7">
         <h4 class="text-start">Please consider supporting Chicago's Filipino community by eating at one of the following:</h4>
-          <div class="fancy row pt-3">
+          <br/>
+          <div class="fancy row">
             <div class="fst-italic col-6 text-start">
               A Taste of Philippines<br/>
               Bayan Ko<br/>

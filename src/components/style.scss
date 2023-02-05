@@ -2,6 +2,15 @@
 $primary: #663399;
 @import "~bootstrap/scss/bootstrap";
 
+#PDFViewer {
+    height:1000px;
+    width:100%;
+}
+
+.btn-link{
+    background-color: none;
+}
+
 // PAGES 
 // general
 body {
@@ -27,6 +36,14 @@ a {
 .btn {
     font-family: "Playfair Display";
     font-size:18px;
+}
+
+.btn-link{
+    text-decoration: none;
+    color: black;
+}
+
+#info > .btn {
     background-color: #362204;
 }
 

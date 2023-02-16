@@ -64,10 +64,6 @@ const OurTeam = () => (
       <Bio img={[noImg]}
         name="Thelma Bascos"
         biography="Bio coming soon."/>
-      <hr/>
-      <Bio img={[noImg]}
-        name="Willi Buhay"
-        biography="Bio coming soon."/>
     </div>
   </Layout>
 )

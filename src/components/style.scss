@@ -2,13 +2,8 @@
 $primary: #663399;
 @import "~bootstrap/scss/bootstrap";
 
-#PDFViewer {
-    height:1000px;
-    width:100%;
-}
-
-.btn-link{
-    background-color: none;
+.test{
+    background-color:red;
 }
 
 // PAGES 
@@ -36,11 +31,6 @@ a {
 .btn {
     font-family: "Playfair Display";
     font-size:18px;
-}
-
-.btn-link{
-    text-decoration: none;
-    color: black;
 }
 
 #info > .btn {
@@ -74,6 +64,27 @@ a {
     font-size:16px;
     color: $text-muted;
 }
+
+//newsletter
+#PDFViewer {
+    height:1000px;
+    width:100%;
+}
+
+.btn-link{
+    text-decoration: none;
+    font-family: "Playfair Display";
+    color: black;
+    background-color: none;
+    font-size: 20px;
+    padding:0;
+}
+
+.btn-helper{
+    font-family: "Playfair Display";
+    font-size: 24px;
+}
+
 
 //policies
 .policies > div > div > p{

@@ -1,0 +1,47 @@
+import * as React from "react"
+import { useState } from 'react'
+
+import PDFViewer from "../components/pdf-viewer.js"
+
+import nl1 from "../newsletter/BayanihanNews2.1.pdf"
+import nl2 from "../newsletter/BayanihanNews1.1.pdf"
+import nl3 from "../newsletter/BayanihanNews1.2.pdf"
+import nl4 from "../newsletter/BayanihanNews1.3.pdf"
+import nl5 from "../newsletter/BayanihanNews1.4.pdf"
+
+import "../components/style.scss"
+import Layout from "../components/layout"
+import {Seo} from "../components/seo"
+
+const Newsletter = () => {
+  const [pdf, setPDF] = useState(nl1)
+  //const pdfArr = [nl1, nl2, nl3, nl4, nl5]
+  //const pdfMap = pdfArr.map(())
+  return (
+  <Layout>
+    <div class="container text-start"> 
+      <h2 >Check out the FACGC Newsletter!</h2>
+      <div class="row">
+          <div class="col-8">
+            <PDFViewer source={pdf}/>
+          </div>
+          <div class="col-4">
+
+          </div>
+      </div>
+    </div>
+    <button onClick={() =>setPDF(nl1)}
+      class="btn btn-link"
+      type="button">test</button>
+    <button onClick={() =>setPDF(nl1)}
+      class="btn btn-link"
+      type="button">goback</button>
+  </Layout>
+  )
+}
+
+export default Newsletter
+
+export const Head = () => (
+    <Seo title="Bayanihan FACGC Newsletter" />
+)

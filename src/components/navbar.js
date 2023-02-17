@@ -12,16 +12,16 @@ const ExactNavLink = props => (
 
 const Navbar = ({ siteTitle }) => {
   return (
-    //<nav className="navbar navbar-expand-md navbar-dark bg-primary">
-    <nav className="navbar navbar-expand-md">
+    //<nav className="navbar navbar-expand-md  bg-primary">
+    <nav className="navbar navbar-expand-md text-light bg-primary">
       <div className="container">
         <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a href="/" class="nav-link text-dark px-3">Home</a>
+              <a href="/" class="nav-link text-light">Home</a>
             </li>
             <div class="vr"/>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-dark px-3" href="#" data-bs-toggle="dropdown">Support</a>
+              <a className="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown">Support</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/support/"> Support </a></li>
                   <li><a class="dropdown-item" href="/wish-list/"> In-Kind Wish List</a></li>
@@ -31,7 +31,7 @@ const Navbar = ({ siteTitle }) => {
             </li>
             <div class="vr"/>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-dark px-3" href="#" data-bs-toggle="dropdown">Community</a>
+              <a className="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown">Community</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/eat-local/"> Eat local </a></li>
                   <li><a class="dropdown-item" href="/newsletter/"> Bayanihan News </a></li>
@@ -41,7 +41,7 @@ const Navbar = ({ siteTitle }) => {
             </li>
             <div class="vr"/>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-dark px-2" href="#" data-bs-toggle="dropdown">About Us</a>
+              <a className="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown">About Us</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/about/"> About Us </a></li>
                   <li><a class="dropdown-item" href="/contact/"> Contact Us </a></li>

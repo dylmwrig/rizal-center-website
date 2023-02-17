@@ -7,7 +7,6 @@ import { Seo } from "../components/seo"
 import img1 from '../images/rizal-center4.jpg'
 import img2 from '../images/rizal-center.png'
 import img3 from '../images/rizal-center2.jpg'
-
 import cleanImg from "../images/cleanup.jpg"
 import cleanImg2 from "../images/cleanup2.jpg"
 import cleanImg3 from "../images/cleanup3.jpg"
@@ -22,7 +21,7 @@ const IndexPage = () => (
                      id="car1"
                      interval="3500"/>
         </div>
-        <div id="slideLabel" class="col-6 d-flex align-items-center justify-content-center text-center">
+        <div id="slideLabel" class="col-6 bg-light d-flex align-items-center justify-content-center text-center">
           <p>
             We're<br/>Building<br/>Community!
           </p>

@@ -1,9 +1,16 @@
 //Here you can customize bootstrap
-$primary: #663399;
+//$primary: #663399;
+$primary: #0A3049;
+$light: #F3F5E0;
+
 @import "~bootstrap/scss/bootstrap";
 
 .test{
     background-color:red;
+}
+
+.bg-dark{
+    color:white;
 }
 
 // PAGES 
@@ -120,7 +127,6 @@ a {
 // COMPONENTS
 //slideshow
 #slideLabel {
-    background-color: #fef1e8;
     font-family: "Playfair Display";
     font-size:50px;
 }
@@ -143,8 +149,20 @@ textarea {
 
 // navbar
 .navbar {
-    //background-color: #f9cb0e !important;
+    color:white;
 }
+
+.nav-item {
+    color:white;
+    text-decoration:none;
+    padding-right:3px;
+    padding-left:3px;
+}
+
+.nav-item > a {
+    font-family: "Montserrat";
+}
+
 .navbar .nav-item .dropdown-menu{ display: none; }
 .navbar .nav-item:hover .nav-link{   }
 .navbar .nav-item:hover .dropdown-menu{ display: block; }

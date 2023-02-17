@@ -20,7 +20,7 @@ const Footer = () => {
           <p class="col-4 text-muted">1332 W IRVING PARK ROAD<br/>CHICAGO, ILLINOIS 60613</p>
           <div class="col-1"/>
         </div>
-        <div class="row pb-4">
+        <div class="row pb-4 ">
           <div class="col-1"/>
           <div class="col-2"><a href="/support/">Support</a></div>
           <div class="col-2"><a href="/volunteer/">Volunteer</a></div>

@@ -66,6 +66,15 @@ module.exports = {
             name: `Open Sans`,
             file: `https://fonts.googleapis.com/css2?family=Open+Sans&display=swap`,
           },
+          {
+            name: `DM Sans`,
+            file: `https://fonts.googleapis.com/css2?family=DM+Sans&display=swap`,
+          },
+          {
+            name: `Montserrat`,
+            file: `https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap
+`,
+          },
         ],
       },
     },

@@ -18,12 +18,12 @@ $light: #F3F5E0;
 body {
     font-size: 22px;
     //font-family: "Playfair Display";
-    font-family: "Open Sans";
+    font-family: "DM Sans";
 }
 
-h2, h3,h4 {
-    //font-family: "Open Sans"
-    font-family: "Playfair Display"
+h2,h3,h4,h5 {
+    font-family: "DM Sans";
+    //font-family: "Playfair Display"
 }
 
 a {
@@ -102,9 +102,6 @@ a {
 //.volunteer > p{
 //    color: $text-muted;
 //}
-.volunteer > h4{
-    font-family: "Open Sans";
-}
 .volunteer > ul{
     padding-left:40px;
 }
@@ -160,7 +157,8 @@ textarea {
 }
 
 .nav-item > a {
-    font-family: "Montserrat";
+    //font-family: "Montserrat";
+    font-family: "";
 }
 
 .navbar .nav-item .dropdown-menu{ display: none; }

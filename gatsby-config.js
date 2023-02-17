@@ -72,8 +72,7 @@ module.exports = {
           },
           {
             name: `Montserrat`,
-            file: `https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap
-`,
+            file: `https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap`,
           },
         ],
       },

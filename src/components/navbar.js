@@ -34,7 +34,6 @@ const Navbar = ({ siteTitle }) => {
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/eat-local/"> Eat local </a></li>
                   <li><a class="dropdown-item" href="/newsletter/"> Bayanihan News </a></li>
-                  <li><a class="dropdown-item" href="/news-feed/"> Filipino News </a></li>
                   <li><a class="dropdown-item" href="/celebrating-rizal.js"> Celebrating Rizal Center </a></li>
                 </ul>
             </li>

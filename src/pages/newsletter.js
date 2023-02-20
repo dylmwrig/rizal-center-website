@@ -6,7 +6,8 @@ import PDFViewer from "../components/pdf-viewer.js"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 
-import nl1 from "../../public/BayanihanNews1.1.pdf"
+//import nl1 from "/BayanihanNews1.1.pdf"
+//import nl1 from "../../public/BayanihanNews1.1.pdf"
 //import nl1 from "../newsletter/BayanihanNews1.1.pdf"
 import nl2 from "../newsletter/BayanihanNews1.2.pdf"
 import nl3 from "../newsletter/BayanihanNews1.3.pdf"
@@ -14,7 +15,7 @@ import nl4 from "../newsletter/BayanihanNews1.4.pdf"
 import nl5 from "../newsletter/BayanihanNews2.1.pdf"
 
 const Newsletter = () => {
-  const [pdf, setPDF] = useState(nl1)
+  const [pdf, setPDF] = useState("/BayanihanNews1.1.pdf")
   //const pdfArr = [nl1, nl2, nl3, nl4, nl5]
   //const pdfMap = pdfArr.map(())
   return (
@@ -48,7 +49,7 @@ const Newsletter = () => {
               type="button">Issue 1.2 &emsp;10/05/22
             </button>
             <hr/>
-            <button onClick={() =>setPDF(nl1)}
+            <button onClick={() =>setPDF(nl2)}
               class="btn btn-link"
               type="button">Issue 1.1 &emsp;09/23/22
             </button>

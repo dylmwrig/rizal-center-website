@@ -32,14 +32,14 @@ const Newsletter = () => {
           <div class="col-10">
             <PDFViewer source={pdf}/>
           </div>
-          <div class="col-2 text-start">
+          <div class="col-2 ">
             <h3 class="pb-2">Select an issue</h3>
             <button onClick={() =>setPDF(nl5)}
               class="btn btn-link"
               type="button">Issue 2.1 &emsp;01/23
             </button>
             &nbsp;&nbsp;&nbsp;
-            <a href="/BayanihanNews2.1.pdf" download> 
+            <a class="text-end" href="/BayanihanNews2.1.pdf" download> 
               <img src={img} alt="Download"/>
             </a>
             <hr/>
@@ -48,7 +48,7 @@ const Newsletter = () => {
               type="button">Issue 1.4 &emsp;11/22
             </button>
             &nbsp;&nbsp;&nbsp;
-            <a href="/BayanihanNews1.4.pdf" download> 
+            <a class="text-end" href="/BayanihanNews1.4.pdf" download> 
               <img src={img} alt="Download"/>
             </a>
             <hr/>
@@ -57,7 +57,7 @@ const Newsletter = () => {
               type="button">Issue 1.3 &emsp;11/22
             </button>
             &nbsp;&nbsp;&nbsp;
-            <a href="/BayanihanNews1.3.pdf" download> 
+            <a class="text-end" href="/BayanihanNews1.3.pdf" download> 
               <img src={img} alt="Download"/>
             </a>
             <hr/>
@@ -66,7 +66,7 @@ const Newsletter = () => {
               type="button">Issue 1.2 &emsp;10/22
             </button>
             &nbsp;&nbsp;&nbsp;
-            <a href="/BayanihanNews1.2.pdf" download> 
+            <a class="text-end" href="/BayanihanNews1.2.pdf" download> 
               <img src={img} alt="Download"/>
             </a>
             <hr/>

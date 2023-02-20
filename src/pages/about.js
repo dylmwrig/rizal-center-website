@@ -61,7 +61,7 @@ const About = () => (
           </div>
           <div class="col-4">
             <img src={img4} alt="Our history"/>
-            <p class="pt-2 text-muted">The Rizal Center circa 19xx</p>
+            <p class="pt-2">The Rizal Center circa 19xx</p>
           </div>
         </div>
       <p>

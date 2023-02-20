@@ -22,10 +22,10 @@ const Footer = () => {
         </div>
         <div class="row pb-4">
           <div class="col-2"/>
-          <div class="col-2 text-start"><a href="/support/">Support</a></div>
-          <div class="col-2"><a href="/volunteer/">Volunteer</a></div>
-          <div class="col-2"><a href="/contact/">Contact Us</a></div>
-          <div class="col-2 text-end"><a href="/newsletter/">Bayanihan News</a></div>
+          <div class="col-2 bg-primary "><a class="text-warning text-start" href="/support/">Support</a></div>
+          <div class="col-2 bg-primary "><a class="text-warning text-start" href="/volunteer/">Volunteer</a></div>
+          <div class="col-2 bg-primary "><a class="text-warning text-start" href="/contact/">Contact Us</a></div>
+          <div class="col-2 bg-primary  text-end"><a class="text-warning text-start" href="/newsletter/">Bayanihan News</a></div>
           <div class="col-2"/>
         </div>
       </div>

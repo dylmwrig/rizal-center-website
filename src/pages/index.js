@@ -13,7 +13,7 @@ import cleanImg3 from "../images/cleanup3.jpg"
 
 const IndexPage = () => (
   <Layout>
-    <section className="pt-4 pb-5 text-center container">
+    <section className="pb-5 text-center container">
       <div class="row">
         <div class="col-6">
           <Slideshow images={[img1, img2, img3]} 

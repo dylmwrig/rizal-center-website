@@ -9,13 +9,19 @@ import {Seo} from "../components/seo"
 //import nl1 from "/BayanihanNews1.1.pdf"
 //import nl1 from "../../public/BayanihanNews1.1.pdf"
 //import nl1 from "../newsletter/BayanihanNews1.1.pdf"
-import nl2 from "../newsletter/BayanihanNews1.2.pdf"
-import nl3 from "../newsletter/BayanihanNews1.3.pdf"
-import nl4 from "../newsletter/BayanihanNews1.4.pdf"
-import nl5 from "../newsletter/BayanihanNews2.1.pdf"
+//import nl2 from "../newsletter/BayanihanNews1.2.pdf"
+//import nl3 from "../newsletter/BayanihanNews1.3.pdf"
+//import nl4 from "../newsletter/BayanihanNews1.4.pdf"
+//import nl5 from "../newsletter/BayanihanNews2.1.pdf"
 
 const Newsletter = () => {
-  const [pdf, setPDF] = useState("/BayanihanNews1.1.pdf")
+  const nl1 = "/BayanihanNews1.1.pdf"
+  const nl2 = "/BayanihanNews1.1.pdf"
+  const nl3 = "/BayanihanNews1.1.pdf"
+  const nl4 = "/BayanihanNews1.1.pdf"
+  const nl5 = "/BayanihanNews1.1.pdf"
+
+  const [pdf, setPDF] = useState(nl1)
   //const pdfArr = [nl1, nl2, nl3, nl4, nl5]
   //const pdfMap = pdfArr.map(())
   return (

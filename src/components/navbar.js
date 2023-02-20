@@ -12,7 +12,6 @@ const ExactNavLink = props => (
 
 const Navbar = ({ siteTitle }) => {
   return (
-    //<nav className="navbar navbar-expand-md  bg-primary">
     <nav className="navbar navbar-expand-md text-light bg-primary">
       <div className="container">
         <ul className="navbar-nav mx-auto">

@@ -1,12 +1,17 @@
 //Here you can customize bootstrap
 //$primary: #663399;
 $primary: #0A3049;
+$secondary: #670000;
 $light: #F3F5E0;
 
 @import "~bootstrap/scss/bootstrap";
 
 .test{
     background-color:red;
+}
+
+.red{
+    color:$secondary;
 }
 
 .bg-dark{
@@ -23,6 +28,7 @@ body {
 
 h2,h3,h4,h5 {
     font-family: "DM Sans";
+    color:$secondary;
     //font-family: "Playfair Display"
 }
 
@@ -41,7 +47,7 @@ a {
 }
 
 #info > .btn {
-    background-color: #362204;
+    background-color: $primary;
 }
 
 // bio 
@@ -92,10 +98,14 @@ a {
     font-size: 24px;
 }
 
-
 //policies
 .policies > div > div > p{
     color: $text-muted;
+}
+.policies > div > h2{
+    color: black !important;
+    background-color:$primary;
+    font-size:30px;
 }
 
 //volunteer

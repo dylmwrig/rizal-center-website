@@ -10,7 +10,7 @@ import {Seo} from "../components/seo"
 
 const WishList = () => (
   <Layout>
-    <div class="container my-5">
+    <div class="container my-3">
       <div class="text-start">
       <div class="row">
         <p class="col-8">

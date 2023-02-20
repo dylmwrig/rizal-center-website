@@ -14,7 +14,7 @@ const EatLocal = () => (
     <div class="container my-5"> 
       <div class="row">
         <div class="col-7">
-        <h4 class="text-start">Please consider supporting Chicago's Filipino community by eating at one of the following:</h4>
+        <h4 class="text-start text-black">Please consider supporting Chicago's Filipino community by eating at one of the following:</h4>
           <br/>
           <div class="fancy row">
             <div class="fst-italic col-6 text-start">

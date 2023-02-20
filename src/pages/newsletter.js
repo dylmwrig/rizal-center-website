@@ -3,36 +3,34 @@ import { useState } from 'react'
 import "../components/style.scss"
 
 import PDFViewer from "../components/pdf-viewer.js"
+import InfoBox from "../components/info-box.js"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 
-//import nl1 from "/BayanihanNews1.1.pdf"
-//import nl1 from "../../public/BayanihanNews1.1.pdf"
-//import nl1 from "../newsletter/BayanihanNews1.1.pdf"
-//import nl2 from "../newsletter/BayanihanNews1.2.pdf"
-//import nl3 from "../newsletter/BayanihanNews1.3.pdf"
-//import nl4 from "../newsletter/BayanihanNews1.4.pdf"
-//import nl5 from "../newsletter/BayanihanNews2.1.pdf"
-
 const Newsletter = () => {
+  //lower = older
   const nl1 = "https://drive.google.com/file/d/120OLilytJ7IduFwCqck7Rg0by8RK32Lw/preview"
   const nl2 = "https://drive.google.com/file/d/1-9iYTbP-5aA29PV-GzvlfbQrCOfIC_ml/preview"
-  const nl3 = "/BayanihanNews1.1.pdf"
-  const nl4 = "/BayanihanNews1.1.pdf"
-  const nl5 = "/BayanihanNews1.1.pdf"
+  const nl3 = "https://drive.google.com/file/d/1wYtCKEq5bwSd_ZRbeaxBcDeS0tgEW0Mr/preview"
+  const nl4 = "https://drive.google.com/file/d/1QMJtksOqea3KxAWAqNoZYaOc13F4ZWka/preview"
+  const nl5 = "https://drive.google.com/file/d/1sw2z5hxPrsdEy_FMEoIuC2-PSjAdxy0c/preview"
 
-  const [pdf, setPDF] = useState(nl1)
+  const [pdf, setPDF] = useState(nl5)
   //const pdfArr = [nl1, nl2, nl3, nl4, nl5]
   //const pdfMap = pdfArr.map(())
   return (
   <Layout>
     <div class="container my-2"> 
-      <h2 class="text-center mb-5">Bayanihan FACGC Newsletter</h2>
+      <div class="row">
+      <div class="col-10">
+        <h2 class="text-left my-2">Bayanihan FACGC Newsletter</h2>
+      </div>
+      </div>
       <div class="row">
           <div class="col-10">
             <PDFViewer source={pdf}/>
           </div>
-          <div class="col-2 text-start bg-primary">
+          <div class="col-2 text-start">
             <h3 class="pb-2">Select an issue</h3>
             <button onClick={() =>setPDF(nl5)}
               class="btn btn-link"
@@ -55,9 +53,13 @@ const Newsletter = () => {
             </button>
             <hr/>
             <button onClick={() =>setPDF(nl1)}
-              class="btn btn-link"
+              class="btn btn-link pb-4"
               type="button">Issue 1.1 &emsp;09/23/22
             </button>
+            <InfoBox 
+              info={["Questions or comments about our newsletter?",
+              "Let us know!"]}
+              link={true}/>
           </div>
       </div>
     </div>

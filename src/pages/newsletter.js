@@ -15,8 +15,8 @@ import {Seo} from "../components/seo"
 //import nl5 from "../newsletter/BayanihanNews2.1.pdf"
 
 const Newsletter = () => {
-  const nl1 = "/BayanihanNews1.1.pdf"
-  const nl2 = "/BayanihanNews1.1.pdf"
+  const nl1 = "https://drive.google.com/file/d/120OLilytJ7IduFwCqck7Rg0by8RK32Lw/preview"
+  const nl2 = "https://drive.google.com/file/d/1-9iYTbP-5aA29PV-GzvlfbQrCOfIC_ml/preview"
   const nl3 = "/BayanihanNews1.1.pdf"
   const nl4 = "/BayanihanNews1.1.pdf"
   const nl5 = "/BayanihanNews1.1.pdf"
@@ -29,8 +29,7 @@ const Newsletter = () => {
     <div class="container my-2"> 
       <h2 class="text-center mb-5">Bayanihan FACGC Newsletter</h2>
       <div class="row">
-          <div class="col-2"/> 
-          <div class="col-8">
+          <div class="col-10">
             <PDFViewer source={pdf}/>
           </div>
           <div class="col-2 text-start bg-primary">
@@ -55,7 +54,7 @@ const Newsletter = () => {
               type="button">Issue 1.2 &emsp;10/05/22
             </button>
             <hr/>
-            <button onClick={() =>setPDF(nl2)}
+            <button onClick={() =>setPDF(nl1)}
               class="btn btn-link"
               type="button">Issue 1.1 &emsp;09/23/22
             </button>

@@ -2,6 +2,8 @@ import * as React from "react"
 import { useState } from 'react'
 import "../components/style.scss"
 
+import img from "../images/download.png"
+
 import PDFViewer from "../components/pdf-viewer.js"
 import InfoBox from "../components/info-box.js"
 import Layout from "../components/layout"
@@ -34,28 +36,50 @@ const Newsletter = () => {
             <h3 class="pb-2">Select an issue</h3>
             <button onClick={() =>setPDF(nl5)}
               class="btn btn-link"
-              type="button">Issue 2.1 &emsp;01/26/23
+              type="button">Issue 2.1 &emsp;01/23
             </button>
+            &nbsp;&nbsp;&nbsp;
+            <a href="/BayanihanNews2.1.pdf" download> 
+              <img src={img} alt="Download"/>
+            </a>
             <hr/>
             <button onClick={() =>setPDF(nl4)}
               class="btn btn-link"
-              type="button">Issue 1.4 &emsp;11/29/22
+              type="button">Issue 1.4 &emsp;11/22
             </button>
+            &nbsp;&nbsp;&nbsp;
+            <a href="/BayanihanNews1.4.pdf" download> 
+              <img src={img} alt="Download"/>
+            </a>
             <hr/>
             <button onClick={() =>setPDF(nl3)}
               class="btn btn-link"
-              type="button">Issue 1.3 &emsp;11/02/22
+              type="button">Issue 1.3 &emsp;11/22
             </button>
+            &nbsp;&nbsp;&nbsp;
+            <a href="/BayanihanNews1.3.pdf" download> 
+              <img src={img} alt="Download"/>
+            </a>
             <hr/>
             <button onClick={() =>setPDF(nl2)}
               class="btn btn-link"
-              type="button">Issue 1.2 &emsp;10/05/22
+              type="button">Issue 1.2 &emsp;10/22
             </button>
+            &nbsp;&nbsp;&nbsp;
+            <a href="/BayanihanNews1.2.pdf" download> 
+              <img src={img} alt="Download"/>
+            </a>
             <hr/>
-            <button onClick={() =>setPDF(nl1)}
-              class="btn btn-link pb-4"
-              type="button">Issue 1.1 &emsp;09/23/22
-            </button>
+            <div class="pb-4">
+              <button onClick={() =>setPDF(nl1)}
+                class="btn btn-link"
+                type="button">Issue 1.1 &emsp;09/22
+              </button>
+              &nbsp;&nbsp;&nbsp;
+              <a href="/BayanihanNews1.1.pdf" download> 
+                <img src={img} alt="Download"/>
+              </a>
+            </div>
             <InfoBox 
               info={["Questions or comments about our newsletter?",
               "Let us know!"]}

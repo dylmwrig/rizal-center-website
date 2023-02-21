@@ -20,7 +20,7 @@ const EatLocal = () => (
             <div class="fst-italic col-6 text-start">
               A Taste of Philippines<br/>
               Bayan Ko<br/>
-              Boonie Foods Revival Food Hall<br/>
+              Boonie's Filipino Restaurant<br/>
               Botanical Cafe<br/>
               Bacolod Chicken Haus<br/>
               Cebu<br/>
@@ -39,7 +39,7 @@ const EatLocal = () => (
             <div class="fancy fst-italic col-6 text-end">
               131 N Clinton Street<br/>          
               1810 W Montrose Avenue<br/>
-              125 S. Clark Street<br/>
+              4337 N Western Ave<br/>
               3740 N. Lincoln Avenue<br/>
               6320 North Lincoln Avenue C & D<br/>
               2211 W North Avenue<br/>
@@ -51,7 +51,7 @@ const EatLocal = () => (
               4551 N Pulaski Rd.<br/>
               4712 N Kimball Avenue<br/>
               110 W Illinois Street<br/>
-              4337 N Western Avenue<br/>
+              2529 North Milwaukee Avenue<br/>
               1700 W Grand Avenue<br/>
               420 W Belmont Avenue<br/>
             </div>

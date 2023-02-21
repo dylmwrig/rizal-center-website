@@ -22,10 +22,8 @@ Program roles often require the ability to volunteer on a regular schedule: the 
         <div class="row">
           <div class="col-8 py-4">
             <ul>
-              <li>Be fluent in English and/or Tagalog</li>
-              <li>Reside in the greater Chicago area.</li>
+              <li>Delight in making a difference and working with the public.</li>
               <li>Commit to a minimum of ten volunteer hours per month.</li>
-              <li>Delight in working with the public.</li>
               <li>Visit and familiarize themselves with the FACC's policies and procedures and programs in order to answer visitor questions confidently.</li>
               <li>Attend in-service training.</li><br/>
             </ul>
@@ -61,11 +59,27 @@ Becoming a program volunteer at Rizal Center has many benefits. You’ll be join
           <li>Personal and professional growth: strengthen your existing skills and learn new skills as you volunteer.</li>
           <li>Work in a community center that embraces and reflects the diversity of our community. Meet new people and expand your worldview.</li>
           <li>Make a difference! Every volunteer role is designed to fill a need in our community – your work changes lives.</li>
+          <li>Provides you with a sense of purpose.</li>
+          <li>Increase your social skills</li>
+          <li>Improves self-esteem</li>
+          <li>Teaches you valuable skills</li>
+          <li>Provides job prospects</li>
+          <li>Brings fun into your life</li>
+          <li>Provides a sense of community</li>
         </ul>
         <p>
-          All volunteers are encouraged to become members of the Filipino American Council of Greater Chicago.
-          Please review the position descriptions before applying. Listed are some volunteer positions that become available most frequently. 
+          All volunteers are encouraged to become members of the Filipino American Council of Greater Chicago's Bayanihan Volunteer Circles:
         </p>
+        <ul>
+          <li>Fundraising and Development Circle (special events and direct donation solicitation, grants, etc.)</li>
+          <li>Legal and Governance Circle (compliance with IRS, AGO, and SOS, Directors and officers Empowerment; policies and procedures; recommendations on changes to the constitution and bylaws of the organization, etc.)</li>
+          <li>Financial and Administration Circle (accounting, auditing, human resources, rental management, IRS/AGO/SOS reporting, D&O insurance, staffing, and supervision, etc.)</li>
+          <li>Outreach and Volunteers Circle (outreach and volunteers’ recruitment, training, education, etc.)</li>
+          <li>Facility Circle ( building upkeep, events scheduling, repair and renovation, security, property insurance, etc.)</li>
+          <li>Communications Circle: (media relations, press statements, press conferences, historical documentation, image building, and events management, etc. )</li>
+          <li>Programs Circle (Program services design, implementation, evaluation, and quality improvement, etc.,</li>
+
+        </ul>
 
         <h5 class="pt-3 ">VOLUNTEER ORIENTATION</h5>
         <p>

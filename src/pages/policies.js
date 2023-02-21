@@ -65,9 +65,6 @@ In the ent that severe winter weather is expected to last through the night and 
           <h4 class="text-black">Hold Harmless and Indemnification</h4>
           <p>Space users shall indemnify and hold harmless the Filipino American Council of Greater Chicago from any and all damage, loss, or liability of any kind whatsoever occasioned upon and/or within the rented/sponsored premises, or ways, walks or concourse adjacent thereto, by reason of any injury or property of third persons occasioned by any act or omission, neglect, or wrongdoing of the Space  User or any of his/her and/or its officers, agents, representatives, assigns, guests, employees, invitees, or other person admitted and/or invited by the Space User to the premises, and the Space User will at his/her and/or its own cost and expense, defend and protect the Filipino American Council of Greater Chicago against any and all such claims or demands. The Space User further agrees to exercise due care in the preservation of the premises and to prevent loitering and presence of unauthorized persons during all usage periods. 
           </p><br/>
-          <h4 class="text-black">Membership Cancellation Policy</h4>
-          <p>Please note: all memberships are for a minimum initial term of one year. Therefore, no cancellations are effective during the first twelve months' of membership. 
-          </p><br/>
           <h4 class="text-black">Classes and Programs Cancellation Policy</h4>
           <p>A full refund will be given when the FACGC cancels a program or a participant requests to drop a class at least 24 hours before the first class. The FACGC reserves the right to cancel, change or combine programs at any time. Refunds are not available for donations.
           </p><br/>
@@ -106,7 +103,7 @@ In the ent that severe winter weather is expected to last through the night and 
             <li>No over night personal storage will be permitted in the building.</li>
             <li>A photo ID is required for checking out building equipment. Exchange of a valuable for equipment is not accepted.</li>
             <li>Fundraising events for non-profit organizations are allowed. (Requires a special use permit.)</li>
-            <li>The Executive Director must approve all donations to the Rizal Community Center. All donations will become the property of the Filipino American Council of Greater Chicago.</li>
+            <li>All donations will become the property of the Filipino American Council of Greater Chicago.</li>
             <li>The Community Center reserves the right to deny admission to anyone who appears to be under the influence of alcohol or a controlled substance.</li>
             <li>The Filipino American Council of Greater Chicago and its personnel, are not responsible for items lost, stolen, left on site, or left in vehicle.</li>
             <li>Service animals specifically trained to perform support tasks are welcome in the Rizal Community Center.</li>

@@ -62,7 +62,7 @@ const Newsletter = () => {
             </a>
             <hr/>
             <button onClick={() =>setPDF(nl2)}
-              class="btn btn-link pdf-button"
+              class="btn btn-link pdf-text"
               type="button">Issue 1.2 &emsp;10/22
             </button>
             &nbsp;&nbsp;&nbsp;
@@ -72,7 +72,7 @@ const Newsletter = () => {
             <hr/>
             <div class="pb-4">
               <button onClick={() =>setPDF(nl1)}
-                class="btn btn-link pdf-button"
+                class="btn btn-link pdf-text"
                 type="button">Issue 1.1 &emsp;09/22
               </button>
               &nbsp;&nbsp;&nbsp;

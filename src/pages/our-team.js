@@ -61,10 +61,6 @@ const OurTeam = () => (
       <Bio img={[malou]}
         name="Marilou “Malou” Tabo"
         biography="Malou is a dedicated wife of Pedro Tabo Jr and a loving mother to Michael and Annamarie. She is a native of Virac, Catanduanes, and currently resides in Chicago for the past 35 years. Malou has many roles, including Nannie, regional leader of Primerica as a life insurance producer and senior consultant of Saladmaster. With a big voice and an even bigger heart, she has been a volunteer for Jose Rizal Community Center for over 22 years and cherishes the time she spends doing charity work, especially for Rizal Center and Catanduanes International Association."/>
-      <hr/>
-      <Bio img={[noImg]}
-        name="Thelma Bascos"
-        biography="Bio coming soon."/>
     </div>
   </Layout>
 )

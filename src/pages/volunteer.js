@@ -33,12 +33,12 @@ Program roles often require the ability to volunteer on a regular schedule: the 
           </div>
         </div>
   
-        <h5 class=" pb-2">ADDITIONAL REQUIREMENTS FOR VOLUNTEERS 18 YEARS AND YOUNGER:</h5> 
-        <div class="row mb-4">
+        <div class="row my-4">
           <div class="col-4">
             <img src={volImg} alt="Boy Scouts Volunteering Opportunity"/>
           </div>
           <div class="col-8">
+            <h5 class=" pb-2">ADDITIONAL REQUIREMENTS FOR VOLUNTEERS 18 YEARS AND YOUNGER:</h5> 
             <ul> 
               <li>Have a waiver signed by a parent or guardian</li>
               <li>Be accompanied and actively supervised by an authorized adult.</li>

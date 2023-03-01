@@ -16,8 +16,9 @@ const Newsletter = () => {
   const nl3 = "https://drive.google.com/file/d/1wYtCKEq5bwSd_ZRbeaxBcDeS0tgEW0Mr/preview"
   const nl4 = "https://drive.google.com/file/d/1QMJtksOqea3KxAWAqNoZYaOc13F4ZWka/preview"
   const nl5 = "https://drive.google.com/file/d/1sw2z5hxPrsdEy_FMEoIuC2-PSjAdxy0c/preview"
+  const nl6 = "https://drive.google.com/file/d/1ZXJNx4ARcjYWuWv61nMrg2-VnkaG8Sll/preview"
 
-  const [pdf, setPDF] = useState(nl5)
+  const [pdf, setPDF] = useState(nl6)
   //const pdfArr = [nl1, nl2, nl3, nl4, nl5]
   //const pdfMap = pdfArr.map(())
   return (
@@ -25,7 +26,7 @@ const Newsletter = () => {
     <div class="container my-2"> 
       <div class="row">
       <div class="col-10">
-        <h2 class="text-left my-2">Bayanihan FACGC Newsletter</h2>
+        <h2 class="text-left my-2">FACGC's Bayanihan Newsletter</h2>
       </div>
       </div>
       <div class="row">
@@ -34,6 +35,16 @@ const Newsletter = () => {
           </div>
           <div class="col-2 ">
             <h3 class="pb-2">Select an Issue</h3>
+
+            <button onClick={() =>setPDF(nl6)}
+              class="btn btn-link pdf-button"
+              type="button">Issue 2.2 &emsp;02/23
+            </button>
+            &nbsp;&nbsp;&nbsp;
+            <a class="text-end" href="/BayanihanNews2.2.pdf" download> 
+              <img src={img} alt="Download"/>
+            </a>
+            <hr/>
             <button onClick={() =>setPDF(nl5)}
               class="btn btn-link pdf-button"
               type="button">Issue 2.1 &emsp;01/23

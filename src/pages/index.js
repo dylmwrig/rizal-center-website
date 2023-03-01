@@ -4,12 +4,15 @@ import Layout from "../components/layout"
 import Slideshow from "../components/slideshow"
 import { Seo } from "../components/seo"
 
-import img1 from '../images/rizal-center4.jpg'
-import img2 from '../images/rizal-center.png'
-import img3 from '../images/rizal-center2.jpg'
-import cleanImg from "../images/cleanup.jpg"
-import cleanImg2 from "../images/cleanup2.jpg"
-import cleanImg3 from "../images/cleanup3.jpg"
+import img1 from '../images/index.jpg'
+import img2 from '../images/index2.jpg'
+import img3 from '../images/index3.png'
+import cleanImg from '../images/cleanup.jpg'
+import cleanImg2 from '../images/cleanup2.jpg'
+import cleanImg3 from '../images/cleanup3.jpg'
+import imgInv from '../images/index-involved.png'
+import imgInv2 from '../images/index-involved2.jpg'
+import imgInv3 from '../images/index-involved3.jpg'
 
 const IndexPage = () => (
   <Layout>
@@ -34,14 +37,14 @@ There is one place in Chicago that is considered by many Filipino Americans as t
           <a class="fs-7" href="/jose-rizal/"> Dr. Jose Rizal.</a> We are located at 1332 W. Irving Park Rd., Chicago, IL 60613.<br/>
 The Rizal Community Center is a multicultural, multigenerational community and cultural center located in Chicago's Lakeview neighborhood!  But it's more than a building. It's a revitalized way of thinking about who we are and how we engage with our community, our neighborhood, and our city.
         </p>
-        <div class="row py-4">
+        <div class="row pb-2 pt-4">
           <div class="col-6">
-          <h3 class="pb-2">Join the fun of collective (Bayanihan) work!</h3>
-          <p>
-During the last three months of 2022, members of the Bayanihan Volunteer Corps put back the auditorium to its rightful place - a safe place for community members to hold dancing, celebrate happy and memorable events, hold forums, or just hang out. We look forward to 2023 to open more programs from health education and training to senior citizens' wellness and recreational programs. <br/>
+            <h3 class="pb-2">Join the fun of collective (Bayanihan) work!</h3>
+            <p>
+During the   last three months of 2022, members of the Bayanihan Volunteer Corps put back the auditorium to its rightful place - a safe place for community members to hold dancing, celebrate happy and memorable events, hold forums, or just hang out. We look forward to 2023 to open more programs from health education and training to senior citizens' wellness and recreational programs. <br/>
 Of course, we welcome program suggestions from you. 
 Please   send your suggestions to rizalcenterchicago@gmail.com. Mabuhay! 
-          </p>
+            </p>
           </div>
           <div class="col-6">
             <Slideshow images={[cleanImg, cleanImg2, cleanImg3]}
@@ -56,6 +59,34 @@ The Rizal Community Center is a welcoming, dynamic place for people of all backg
 We do this through relevant programming in arts and culture, civic engagement, public policy, community education,  and Filipino life;  meaningful service to combat food insecurity and to empower people.<br/><br/>
 The Rizal Community Center  operates under the aegis of the Filipino American Council of Greater Chicago, one of the oldest cultural organizations in the nation. 
         </p>
+
+        <div class="row py-2">
+          <h3 class="pb-3">Get involved!</h3>
+          <div class="col-4 gx-5 text-center">
+            <div class="pb-2">
+              <a href="/newsletter/" class="">Check out our newsletter</a>
+            </div>
+            <a href="/newsletter/">
+              <img src={imgInv}/>
+            </a>
+          </div>
+          <div class="col-4 gx-5 text-center">
+            <div class="pb-2">
+              <a href="/volunteer/">Volunteer opportunities</a>
+            </div>
+            <a href="/volunteer/">
+              <img src={imgInv2}/>
+            </a>
+          </div>
+          <div class="col-4 gx-5 text-center">
+            <div class="pb-2">
+              <a href="https://circapintig.networkforgood.com/projects/172580-bayanihan-for-rizal-center?utm_campaign=Spring+campaign&fbclid=IwAR0pi8xZNfZSf0U1mx_DCvQmMMFq3WaWGWBiaq_5wqLzbIzCZ34jSfGstVI&utm_source=Website&utm_medium=Website+Page">Help us rebuild Rizal center</a>
+            </div>
+            <a href="https://circapintig.networkforgood.com/projects/172580-bayanihan-for-rizal-center?utm_campaign=Spring+campaign&fbclid=IwAR0pi8xZNfZSf0U1mx_DCvQmMMFq3WaWGWBiaq_5wqLzbIzCZ34jSfGstVI&utm_source=Website&utm_medium=Website+Page">
+              <img src={imgInv3}/>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   </Layout>

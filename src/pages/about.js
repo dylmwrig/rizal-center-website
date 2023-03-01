@@ -16,7 +16,7 @@ const About = () => (
         <p class="py-2">
           The Rizal Community Center is more than a building. It's a revitalized way of thinking about who we are and how we engage with our community, our neighborhood, and our city. Our presence in the global diaspora. It is a welcoming, dynamic place for people of all backgrounds to come together, to foster bridging, appreciation, and understanding of the Filipino and Filipino American experiences in Chicago and our place in American society, as well as intersections with diverse cultures.
         </p>
-        <div id="aboutImgs" class="pt-3 row">
+        <div class="pt-3 row">
           <div class="col-4 gx-5">
             <img src={img}/>
             <br/>
@@ -61,7 +61,6 @@ const About = () => (
           </div>
           <div class="col-4">
             <img src={img4} alt="Our history"/>
-            <p class="pt-2">The Rizal Center circa 19xx</p>
           </div>
         </div>
       <p>

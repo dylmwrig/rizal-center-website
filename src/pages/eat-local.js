@@ -64,7 +64,8 @@ const EatLocal = () => (
           info={["This list is by no means comprehensive — but it's a start. If you know of a restaurant or bar that should be added to the list or an update is needed, please let us know and we will be happy to do.  Just send us a message on our Contact Us form.",
           "The Filipino American Council of Greater Chicago is providing this information solely as a community service.",
           "Happy eating!"]}
-          link={true}/>
+          linkPres={true}
+          link="/contact/"/>
         </div>
       </div>
     </div>

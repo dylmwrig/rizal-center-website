@@ -114,7 +114,8 @@ In the ent that severe winter weather is expected to last through the night and 
             <InfoBox
               info={["Questions or concerns about our policies?",
                      "Send us a message and we will be happy to address your concerns."]}
-              link={true}/>
+              linkPres={true}
+              link="/contact/"/>
             </div>
             <div class="col-6"/>
           </div>

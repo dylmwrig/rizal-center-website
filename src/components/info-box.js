@@ -6,6 +6,15 @@ import "../components/style.scss"
 const InfoBox = (props) => {
   const info = props.info
   const link = props.link
+  const linkPres = props.link
+  const linkText = props.linkText
+  const newTab = props.newTab
+  var btnText = ''
+  if (linkText === undefined){
+    btnText="Contact us"
+  } else {
+    btnText = linkText
+  }
   
   return (
     <div id="info" class="px-4 pb-2 pt-3 text-start"> 
@@ -13,10 +22,16 @@ const InfoBox = (props) => {
         return(
           <p>{par}</p>)
         })}
-      {link 
-        ? <a class="btn btn-primary mb-2"  
-             role="button"
-             href="/contact/">Contact Us</a>
+      {linkPres 
+        ? newTab 
+          ? <a class="btn btn-primary mb-2"  
+              target="_blank"
+              role="button"
+              href={link}>{btnText}</a>
+
+          : <a class="btn btn-primary mb-2"  
+               role="button"
+               href={link}>{btnText}</a>
         : <p></p>}
    </div>
   )

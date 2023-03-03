@@ -10,7 +10,7 @@ const Footer = () => {
           <div class="col-2"/>
           <p class="col-3 text-muted text-start">©2023 FILIPINO AMERICAN COUNCIL OF<br/>GREATER CHICAGO - ALL RIGHTS RESERVED.</p>
           <div class="col-2">
-            <a href="https://www.facebook.com/facchicago">
+            <a href="https://www.facebook.com/facchicago" target="_blank">
               <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg"
                 alt="Follow us on Facebook!"
                 height="50" width="50">

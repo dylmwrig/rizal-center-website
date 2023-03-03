@@ -49,6 +49,10 @@ const Navbar = ({ siteTitle }) => {
                   <li><a class="dropdown-item" href="/privacy-policy/"> Privacy Statement</a></li>
                 </ul>
             </li>
+            <div class="vr"/>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="https://circapintig.networkforgood.com/projects/172580-bayanihan-for-rizal-center?utm_campaign=Spring+campaign&fbclid=IwAR0pi8xZNfZSf0U1mx_DCvQmMMFq3WaWGWBiaq_5wqLzbIzCZ34jSfGstVI&utm_source=Website&utm_medium=Website+Page" alt="Donate">Donate</a>
+              </li>
         </ul>
       </div>
     </nav>

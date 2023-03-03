@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import img from "../images/about.webp"
+import img2 from "../images/about2.jpeg"
 import img3 from "../images/about3.jpg"
 import img4 from "../images/about4.jpg"
 
@@ -19,23 +20,28 @@ const About = () => (
         <div class="pt-3 row">
           <div class="col-4 gx-5">
             <img src={img}/>
-            <br/>
+          </div>
+          <div class="col-4 gx-5">
+            <img src={img2}/>
+          </div>
+          <div class="col-4 gx-5">
+            <img src={img3}/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 gx-5">
             <h5 class="pt-4 fst-italic">Community</h5>
             <p>
               The Rizal Community Center is a welcoming place for our Filipino American, Filipino, and broader communities - to come together, to share, and to celebrate our vibrant, diverse connections.  But you don't have to live in Chicago to love us. Be part of our online and social media community.    
             </p>
           </div>
           <div class="col-4 gx-5">
-            <img src={img}/>
-            <br/>
             <h5 class="pt-4 fst-italic">Neighborhood</h5>
             <p>
               The Rizal Community Center is located in the Graceland West community of the Lakeview neighborhood. Our Rizal Center will also serve as a hub for our neighbors and local community organizations.   
             </p>
           </div>
           <div class="col-4 gx-5">
-            <img src={img3}/>
-            <br/>
             <h5 class="pt-4 fst-italic">City</h5>
             <p>
               Filipino immigrants and their descendants have been part of Chicago's fabric since 1906, contributing to the U.S. labor force and city government. We will continue to build our presence through cross-cultural dialogues, collaborative partnerships, and participation in municipal and state events. 

@@ -51,7 +51,8 @@ Would you like to help out? We’ll gladly accept any of the following:
         <div class="col-4 pt-2">
         <InfoBox 
           info={["Please consider hosting a donation drive for us! If you have any of these items to donate, please contact us at 773-541-1725 or by using the form below to schedule a drop-off.",          "Thank you in advance for your support!"]}
-          link={true}/>
+          linkPres={true}
+          link="/contact/"/>
         </div>
       </div>
       <p class="fw-bold"> Cleaning and Paper Supplies:<br/></p>

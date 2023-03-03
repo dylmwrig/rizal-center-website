@@ -94,7 +94,8 @@ const Newsletter = () => {
             <InfoBox 
               info={["Questions or comments about our newsletter?",
               "Let us know!"]}
-              link={true}/>
+              linkPres={true}
+              link="/contact/"/>
           </div>
       </div>
     </div>

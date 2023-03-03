@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import img from "../images/bayanihan.webp"
+import img from "../images/celebrating-rizal.jpeg"
 import img2 from "../images/celebrating-rizal2.jpeg"
 
 import InfoBox from "../components/info-box.js"
@@ -11,7 +11,8 @@ import {Seo} from "../components/seo"
 
 const Celebrating = () => (
   <Layout>
-    <div class="container my-3">
+    <div class="container ">
+      <img src={img} class="pb-3" alt="Celebrating Rizal Center"/>
       <div class="row">
         <div class="col-12 text-start">
           <h4>CELEBRATING RIZAL CENTER</h4>

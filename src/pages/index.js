@@ -34,7 +34,7 @@ const IndexPage = () => (
         <h2>Mabuhay! Welcome!</h2>
         <p class="fs-7"> 
 There is one place in Chicago that is considered by many Filipino Americans as their “home away from home”. This place is called Rizal Center which is named after the Philippine national hero    
-          <a class="fs-7" href="/jose-rizal/"> Dr. Jose Rizal.</a> We are located at 1332 W. Irving Park Rd., Chicago, IL 60613.<br/>
+          <a class="fs-7" href="/jose-rizal/"> Dr. Jose Rizal.</a> The center is located at 1332 W. Irving Park Rd., Chicago, IL 60613.<br/>
 The Rizal Community Center is a multicultural, multigenerational community and cultural center located in Chicago's Lakeview neighborhood!  But it's more than a building. It's a revitalized way of thinking about who we are and how we engage with our community, our neighborhood, and our city.
         </p>
         <div class="row pb-2 pt-4">

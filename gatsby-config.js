@@ -49,7 +49,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `standalone`,
-        icon: `src/images/logo-small.png`
+        icon: `src/images/logo-transparent.png`
       },
     },
     {

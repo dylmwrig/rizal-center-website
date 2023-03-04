@@ -1,6 +1,7 @@
 import * as React from "react"
 import "../components/style.scss"
 
+import InfoBox from "../components/info-box.js"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 
@@ -11,7 +12,7 @@ const PrivacyPolicy = () => {
   return (
     <Layout>
       <div class="container text-start"> 
-        <h1>Privacy Policy for Filipino American Council of Greater Chicago</h1>
+        <h1 class="pt-4">Privacy Policy for Filipino American Council of Greater Chicago</h1>
         
         <p>At Rizal Center Chicago, accessible from https://rizalcenterchicago.org/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Rizal Center Chicago and how we use it.</p>
         
@@ -28,14 +29,16 @@ const PrivacyPolicy = () => {
         <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
         <p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
         <p>When you apply to be a volunteer, we will ask for information including items such as name, company name, address, email address, telephone number, and contact information for listed references.</p>
+        <p>Additionally, "Celebrating Rizal Center" submissions may include user submitted images.</p>
         
         <h2>How we use your information</h2>
         
         <p>We use the information we collect in various ways, including to:</p>
         
         <ul>
-        <li>Accept volunteer applications</li>
-        <li>Send you emails</li>
+          <li>Accept volunteer applications</li>
+          <li>Send you emails</li>
+          <li>Publish user-submitted "Celebrating Rizal Center" stories in our newsletter</li>
         </ul>
         
         <h2>Log Files</h2>
@@ -45,16 +48,6 @@ const PrivacyPolicy = () => {
         <h2>Cookies and Web Beacons</h2>
         
         <p>Like any other website, Rizal Center Chicago uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
-        
-        
-        
-        <h2>Advertising Partners Privacy Policies</h2>
-        
-        <p>You may consult this list to find the Privacy Policy for each of the advertising partners of Rizal Center Chicago.</p>
-        
-        <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Rizal Center Chicago, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
-        
-        <p>Note that Rizal Center Chicago has no access to or control over these cookies that are used by third-party advertisers.</p>
         
         <h2>Third Party Links</h2>
         
@@ -78,15 +71,25 @@ const PrivacyPolicy = () => {
         
         <p>Rizal Center Chicago does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
         
+        <p>Additionally, if an image submitted for "Celebrating Rizal Center" includes children, it must include only children of the submitter.</p>
+        
         <h2>Changes to This Privacy Policy</h2>
         
         <p>We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.</p>
         
         <p>Our Privacy Policy was created with the help of the <a href="https://www.termsfeed.com/privacy-policy-generator/">TermsFeed Privacy Policy Generator</a>.</p>
         
-        <h2>Contact Us</h2>
+        <br/>
+        <hr/>
+        <br/>
+        <h2 class="text-black fw-italic pb-3">Contact Us</h2>
         
-        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</p>
+        <div class="col-4">
+          <InfoBox 
+            info={["If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us."]}
+            linkPres={true}
+            link="/contact/"/>
+        </div>
 </div>
     </Layout>
   )

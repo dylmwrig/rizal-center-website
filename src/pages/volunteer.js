@@ -32,7 +32,7 @@ const VolunteerOpportunities = () => (
 
 
             <div class="col-4">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmKqPQCcTLjsAqVYcsHxfWfldmj8pM8VmiikvaNIb49vbdcA/viewform?embedded=true" target="_blank">
+              <a href="https://forms.gle/hqcVtAXmzsMmYMUVA" target="_blank">
                 <img class="col-12" src={img4}/>
               </a>
               <InfoBox 
@@ -41,7 +41,7 @@ const VolunteerOpportunities = () => (
                 newTab={true}
                 linkPres={true}
                 linkText="Volunteer Application"
-                link="https://forms.gle/K7V6FmrnNg86eRzS6"/>
+                link="https://forms.gle/hqcVtAXmzsMmYMUVA"/>
             </div>
         </div>
         <div class="row my-4">

@@ -18,7 +18,7 @@ const VolunteerPolicies = () => (
         <div>
         <h4 class="">VOLUNTEER CODE OF ETHICS AND PROFESSIONAL STANDARDS</h4>
           <p>
-            This Volunteer Handbook is provided to inform volunteers and potential volunteers of the policies and operating procedures of the FACGC, and of the many service opportunities that are available. It is not a contract for employment or a guarantee of a continuing relationship with the FACC.<br/>
+            This Volunteer Handbook is provided to inform volunteers and potential volunteers of the policies and operating procedures of the FACGC, and of the many service opportunities that are available. It is not a contract for employment or a guarantee of a continuing relationship with the FACGC.<br/>
           </p>
         </div>
         <p>

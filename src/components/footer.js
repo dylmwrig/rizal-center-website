@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div class="container-fluid">
-        <div class="row pt-5 pb-2">
+        <div class="row pt-5">
           <div class="col-2"/>
           <p class="col-3 text-muted text-start">©2023 FILIPINO AMERICAN COUNCIL OF<br/>GREATER CHICAGO - ALL RIGHTS RESERVED.</p>
           <div class="col-2">
@@ -20,12 +20,19 @@ const Footer = () => {
           <p class="col-3 text-muted text-end">1332 W IRVING PARK ROAD<br/>CHICAGO, ILLINOIS 60613</p>
           <div class="col-2"/>
         </div>
-        <div class="row pb-4">
+        <div class="row">
           <div class="col-2"/>
-          <div class="col-2 text-start"><a href="/support/">Support</a></div>
-          <div class="col-2"><a href="/volunteer/">Volunteer</a></div>
-          <div class="col-2"><a href="/contact/">Contact Us</a></div>
-          <div class="col-2 text-end"><a href="/newsletter/">Bayanihan News</a></div>
+          <div class="col-8">
+            <div class="row">
+              <div class="col-12 btn-group">
+                <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/about/">About Us</a>
+                <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/volunteer/">Volunteer</a>
+                <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/donate/">Donate</a>
+                <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/newsletter/">Newsletter</a>
+                <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/contact/">Contact Us</a>
+              </div>
+            </div>
+          </div>
           <div class="col-2"/>
         </div>
       </div>

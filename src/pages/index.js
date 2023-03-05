@@ -61,7 +61,7 @@ The Rizal Community Center  operates under the aegis of the Filipino American Co
         </p>
 
         <div class="row py-2">
-          <h3 class="pb-3">Get involved!</h3>
+          <h3 class="pb-3">Get Involved!</h3>
           <div class="col-4 gx-5 text-center">
             <div class="pb-2">
               <a href="/newsletter/" class="">Check out our newsletter</a>

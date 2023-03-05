@@ -16,7 +16,7 @@ const VolunteerPolicies = () => (
         </p>
         
         <div>
-        <h4 class="">VOLUNTEER CODE OF ETHICS AND PROFESSIONAL STANDARDS</h4>
+          <h4 class="pt-3">VOLUNTEER CODE OF ETHICS AND PROFESSIONAL STANDARDS</h4>
           <p>
             This Volunteer Handbook is provided to inform volunteers and potential volunteers of the policies and operating procedures of the FACGC, and of the many service opportunities that are available. It is not a contract for employment or a guarantee of a continuing relationship with the FACGC.<br/>
           </p>
@@ -24,6 +24,7 @@ const VolunteerPolicies = () => (
         <p>
           The Filipino American Council of Greater Chicago reserves the right to change policies and procedures or revise the contents of the Volunteer Handbook at its sole discretion, without prior notification to volunteers. In the event that any changes are made, the revised policies and procedures shall be posted on the website immediately. Please check the latest information posted to inform yourself of any changes.
         </p>
+        <a href="/VolunteerEthics2019.pdf" download>You can download the handbook here</a>
       </div>
     </div>
   </Layout>

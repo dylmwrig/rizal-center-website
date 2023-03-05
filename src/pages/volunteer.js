@@ -17,7 +17,7 @@ const VolunteerOpportunities = () => (
       <div class="row volunteer text-start">
         <div class="row">
           <div class="col-8">
-            <h5 class="">VOLUNTEERING</h5>
+            <h5>VOLUNTEERING</h5>
             <p> Volunteering is a great way to make a difference and get to know our diverse community. We are always recruiting enthusiastic volunteers, and make the most of your time and skills to accomplish FACGC's mission and purposes.<br/>
                 Program roles often require the ability to volunteer on a regular schedule: the same day and time each week. We generally ask for a minimum of a six-month commitment when volunteering in a program.<br/>
             </p>
@@ -29,20 +29,18 @@ const VolunteerOpportunities = () => (
                   <li>Attend in-service training.</li><br/>
                 </ul>
           </div>
-
-
-            <div class="col-4">
-              <a href="https://forms.gle/hqcVtAXmzsMmYMUVA" target="_blank">
-                <img class="col-12" src={img4}/>
-              </a>
-              <InfoBox 
-                info={["Please complete the following Google Form in order to submit an application.",
-                       "If you have any questions regarding the volunteer process, please reach out to Sally Velasco at sallyvelascor@yahoo.com."]}
-                newTab={true}
-                linkPres={true}
-                linkText="Volunteer Application"
-                link="https://forms.gle/hqcVtAXmzsMmYMUVA"/>
-            </div>
+          <div id="volunteerApp" class="col-4">
+            <a href="https://forms.gle/hqcVtAXmzsMmYMUVA" target="_blank">
+              <img class="col-12" src={img4}/>
+            </a>
+            <InfoBox 
+              info={["Please complete the following Google Form in order to submit an application.",
+                     "If you have any questions regarding the volunteer process, please reach out to Sally Velasco at sallyvelascor@yahoo.com."]}
+              newTab={true}
+              linkPres={true}
+              linkText="Volunteer Application"
+              link="https://forms.gle/hqcVtAXmzsMmYMUVA"/>
+          </div>
         </div>
         <div class="row my-4">
           <div class="col-4">
@@ -91,13 +89,18 @@ Becoming a program volunteer at Rizal Center has many benefits. You’ll be join
             <li>Programs Circle (Program services design, implementation, evaluation, and quality improvement, etc.,</li>
           </ul>
 
-          <h5 class="pt-3 ">VOLUNTEER ORIENTATION</h5>
+          <h5 class="pt-3">VOLUNTEER POLICIES</h5>
+          <div class="row">
+            <p>You can find our policies <a href="/volunteer-policies">here</a></p>
+          </div>
+
+          <h5 class="pt-3">VOLUNTEER ORIENTATION</h5>
           <div class="row">
             <p>
               The first step in becoming a FACGC volunteer is attending a New Volunteer Orientation where you will learn about FACGC and the Rizal Community Center, and the many ways you can help as a volunteer.<br/><br/>
               In the meantime, if you have a skill or energy to spare and share,  please tell us.  We have a long list of tasks in our rewriting of the next chapter of the Rizal Community Center!  Email to sallyvelascor@yahoo.com or call 1-773-541-1725.<br/><br/>
-              Please join us!
             </p>
+            <a href="/volunteer/#volunteerApp">Please join us!</a>
           </div>
         </div>
       </div>

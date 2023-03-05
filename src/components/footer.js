@@ -13,7 +13,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/facchicago" target="_blank">
               <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg"
                 alt="Follow us on Facebook!"
-                height="50" width="50">
+                height="40" width="40">
               </img>
             </a>
           </div>
@@ -26,8 +26,8 @@ const Footer = () => {
             <div class="row">
               <div class="col-12 btn-group">
                 <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/about/">About Us</a>
-                <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/volunteer/">Volunteer</a>
-                <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/donate/">Donate</a>
+                <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/support/">Support</a>
+                <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/eat-local/">Eat Local</a>
                 <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/newsletter/">Newsletter</a>
                 <a role="button" type="button" class="btn btn-primary footBtn fst-bold" href="/contact/">Contact Us</a>
               </div>

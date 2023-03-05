@@ -22,7 +22,7 @@ const Navbar = ({ siteTitle }) => {
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown">Support</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/support/"> Support </a></li>
+                  <li><a class="dropdown-item" href="/support/"> Support & Donate </a></li>
                   <li><a class="dropdown-item" href="/wish-list/"> In-Kind Wish List</a></li>
                   <li><a class="dropdown-item" href="/volunteer/"> Volunteer Opportunities</a></li>
                   <li><a class="dropdown-item" href="/volunteer-policies"> Volunteer Policies</a></li>
@@ -51,7 +51,7 @@ const Navbar = ({ siteTitle }) => {
             </li>
             <div class="vr"/>
               <li class="nav-item">
-                <a class="nav-link text-light" href="https://circapintig.networkforgood.com/projects/172580-bayanihan-for-rizal-center?utm_campaign=Spring+campaign&fbclid=IwAR0pi8xZNfZSf0U1mx_DCvQmMMFq3WaWGWBiaq_5wqLzbIzCZ34jSfGstVI&utm_source=Website&utm_medium=Website+Page" alt="Donate">Donate</a>
+                <a class="nav-link text-light" href="/support/">Donate</a>
               </li>
         </ul>
       </div>

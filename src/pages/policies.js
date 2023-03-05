@@ -11,18 +11,18 @@ import {Seo} from "../components/seo"
 
 const Policies = () => (
   <Layout>
-    <div class="policies container my-5 text-start">
+    <div class="policies container my-3 text-start">
       <div class="row">
-        <div class="col-2"/>
-        <p class="col-8">
+        <div class="col-1"/>
+        <p class="col-10">
           The following policies have been adopted by the Filipino American Council of Greater Chicago, in order to ensure a safe, positive, and healthy environment at the Rizal Community Center. The FACGC has the right to amend any and all policies, as warranted. Additional policies may be added as circumstances warrant.<br/><br/>
           If you have any questions, please contact Sally Richmond at sallyvelascor@yahoo.com.
         </p>
-        <div class="col-2"/>
+        <div class="col-1"/>
       </div>
       <div class="row">
-        <div class="col-2"/>
-        <div class="col-8">
+        <div class="col-1"/>
+        <div class="col-10">
           <h2 class="text-black py-4">POLICIES</h2>
           <div class="row">
             <div class="col-8">
@@ -120,7 +120,7 @@ In the ent that severe winter weather is expected to last through the night and 
             <div class="col-6"/>
           </div>
         </div>
-        <div class="col-2"/>
+        <div class="col-1"/>
       </div>
     </div>
   </Layout>

@@ -22,7 +22,7 @@ const Navbar = ({ siteTitle }) => {
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown">Support</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/support/"> Support & Donate </a></li>
+                  <li><a class="dropdown-item" href="/support/"> Support</a></li>
                   <li><a class="dropdown-item" href="/wish-list/"> In-Kind Wish List</a></li>
                   <li><a class="dropdown-item" href="/volunteer/"> Volunteer Opportunities</a></li>
                   <li><a class="dropdown-item" href="/volunteer-policies"> Volunteer Policies</a></li>

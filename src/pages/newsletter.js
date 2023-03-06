@@ -34,7 +34,7 @@ const Newsletter = () => {
       <div class="text-start"> 
         <h3 class="text-dark fancy m-0">Issue {info}</h3>
         <button onClick={() =>setter(null, null)}
-          class="btn btn-link"
+          class="btn btn-link text-danger py-2"
           type="button">Go back
         </button>
           <br/>
@@ -45,10 +45,13 @@ const Newsletter = () => {
 
   function browse(){
     return (
-      <div class="row">
-        <div class="text-start">
-          <p>Click on one of the issues below in order to view it in your browser.<br/>
-          You can also click the corresponding issue's download button to download the pdf.</p>
+      <div> 
+        <div class="text-start col-6">
+          <InfoBox 
+            info={["Click on one of the issues below in order to view it in your browser.",                    "You can also click the corresponding issue's download button to download the pdf.",
+            "If you have any questions, concerns, or suggestions for the newsletter, please let us know!"]}
+            linkPres={true}
+            link="/contact/"/>
         </div>
         <hr/>
         <div class="pb-3">
@@ -85,70 +88,76 @@ const Newsletter = () => {
               </a>
             </div>
           </div>
+      <hr/>
+          <h1 class="text-center text-dark">2022</h1>
+          <div class="row">
+            <div class="col-4">
+              <button onClick={() =>setter(nl4, "1.4 published 11/29/22")}
+                class="btn btn-link"
+                type="button">
+                <img src={img4}/>
+              </button>
+              <button onClick={() =>setter(nl4, "1.4 published 11/29/22")}
+                class="btn btn-link"
+                type="button">Issue 1.4 pub. 11/29/22
+              &nbsp;&nbsp;&nbsp;
+              </button>
+              <a href="/BayanihanNews1.4.pdf" download> 
+                <img src={downImg} alt="Download"/>
+              </a>
+            </div>
+            <div class="col-4">
+              <button onClick={() =>setter(nl3, "1.3 published 11/02/22")}
+                class="btn btn-link"
+                type="button">
+                <img src={img3}/>
+              </button>
+              <button onClick={() =>setter(nl3, "1.3 published 11/02/22")}
+                class="btn btn-link"
+                type="button">Issue 1.3 pub. 11/02/22
+              &nbsp;&nbsp;&nbsp;
+              </button>
+              <a href="/BayanihanNews1.3.pdf" download> 
+                <img src={downImg} alt="Download"/>
+              </a>
+            </div>
+            <div class="col-4">
+              <button onClick={() =>setter(nl2, "1.2 published 10/05/22")}
+                class="btn btn-link"
+                type="button">
+                <img src={img2}/>
+              </button>
+              <button onClick={() =>setter(nl2, "1.2 published 10/05/22")}                
+                class="btn btn-link"
+                type="button">Issue 1.2 pub. 10/05/22
+              &nbsp;&nbsp;&nbsp;
+              </button>
+              <a href="/BayanihanNews1.2.pdf" download> 
+                <img src={downImg} alt="Download"/>
+              </a>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-4">
+              <button onClick={() =>setter(nl1, "1.1 published 09/23/22")}
+                class="btn btn-link"
+                type="button">
+                <img src={img}/>
+              </button>
+              <button onClick={() =>setter(nl1, "1.1 published 09/23/22")}                
+                class="btn btn-link"
+                type="button">Issue 1.1 pub. 09/23/22
+              &nbsp;&nbsp;&nbsp;
+              </button>
+              <a href="/BayanihanNews1.1.pdf" download> 
+                <img src={downImg} alt="Download"/>
+              </a>
+            </div>
+          </div>
         </div>
       <hr/>
       </div>
-    )
-  }
-
-  function test(){
-    return (
-          <div class="col-2 ">
-            <h3 class="pb-2">Select an Issue</h3>
-
-            <hr/>
-            <button onClick={() =>setPDF(nl5)}
-              class="btn btn-link pdf-button"
-              type="button">Issue 2.1 &emsp;01/23
-            </button>
-            &nbsp;&nbsp;&nbsp;
-            <a class="text-end" href="/BayanihanNews2.1.pdf" download> 
-              <img src={img} alt="Download"/>
-            </a>
-            <hr/>
-            <button onClick={() =>setPDF(nl4)}
-              class="btn btn-link pdf-button"
-              type="button">Issue 1.4 &emsp;11/22
-            </button>
-            &nbsp;&nbsp;&nbsp;
-            <a class="text-end" href="/BayanihanNews1.4.pdf" download> 
-              <img src={img} alt="Download"/>
-            </a>
-            <hr/>
-            <button onClick={() =>setPDF(nl3)}
-              class="btn btn-link pdf-button"
-              type="button">Issue 1.3 &emsp;11/22
-            </button>
-            &nbsp;&nbsp;&nbsp;
-            <a class="text-end" href="/BayanihanNews1.3.pdf" download> 
-              <img src={img} alt="Download"/>
-            </a>
-            <hr/>
-            <button onClick={() =>setPDF(nl2)}
-              class="btn btn-link pdf-button"
-              type="button">Issue 1.2 &emsp;10/22
-            </button>
-            &nbsp;&nbsp;&nbsp;
-            <a class="text-end" href="/BayanihanNews1.2.pdf" download> 
-              <img src={img} alt="Download"/>
-            </a>
-            <hr/>
-            <div class="pb-4">
-              <button onClick={() =>setPDF(nl1)}
-                class="btn btn-link pdf-button"
-                type="button">Issue 1.1 &emsp;09/22
-              </button>
-              &nbsp;&nbsp;&nbsp;
-              <a href="/BayanihanNews1.1.pdf" download> 
-                <img src={img} alt="Download"/>
-              </a>
-            </div>
-            <InfoBox 
-              info={["Questions or comments about our newsletter?",
-              "Let us know!"]}
-              linkPres={true}
-              link="/contact/"/>
-          </div>
     )
   }
 

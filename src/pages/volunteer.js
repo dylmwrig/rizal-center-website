@@ -91,7 +91,7 @@ Becoming a program volunteer at Rizal Center has many benefits. You’ll be join
 
           <h5 class="pt-3">VOLUNTEER POLICIES</h5>
           <div class="row">
-            <p>You can find our policies <a href="/volunteer-policies">here</a></p>
+            <p>You can find our policies <a class="text-danger" href="/volunteer-policies">here</a></p>
           </div>
 
           <h5 class="pt-3">VOLUNTEER ORIENTATION</h5>

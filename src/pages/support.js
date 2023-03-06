@@ -9,7 +9,7 @@ import {Seo} from "../components/seo"
 
 const SupportPage = () => (
   <Layout>
-    <div class="container my-5 text-start">
+    <div class="container my-3 text-start">
       <div class="row">
         <div class="col-8">
           <h3 class="pb-2">Get Involved!</h3>
@@ -19,7 +19,7 @@ const SupportPage = () => (
           </p>
           <h3 class="pb-2">Check Out Our Wishlist</h3>
           <p>We are in need of many supplies as we rebuild our organization. This includes paper materials, cleaning supplies, general use tools, and more.<br/>
-             You can find the list <a href="/wish-list/">here.</a> Thank you for any and all contributions.</p>
+             You can find the list <a class="text-danger" href="/wish-list/">here</a>. Thank you for any and all contributions.</p>
           <h3 class="pb-2">Volunteers Welcome</h3>
           <p>If you're interested in how volunteering could enrich your life and connect you with the Filipino community of Chicago, please see the following links</p>
           <div class="row">

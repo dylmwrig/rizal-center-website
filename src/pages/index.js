@@ -38,8 +38,8 @@ There is one place in Chicago that is considered by many Filipino Americans as t
 The Rizal Community Center is a multicultural, multigenerational community and cultural center located in Chicago's Lakeview neighborhood!  But it's more than a building. It's a revitalized way of thinking about who we are and how we engage with our community, our neighborhood, and our city.
         </p>
         <div class="row pb-2 pt-4">
+          <h3 class="pb-2">Join the fun of collective (Bayanihan) work!</h3>
           <div class="col-6">
-            <h3 class="pb-2">Join the fun of collective (Bayanihan) work!</h3>
             <p>
 During the   last three months of 2022, members of the Bayanihan Volunteer Corps put back the auditorium to its rightful place - a safe place for community members to hold dancing, celebrate happy and memorable events, hold forums, or just hang out. We look forward to 2023 to open more programs from health education and training to senior citizens' wellness and recreational programs. <br/>
 Of course, we welcome program suggestions from you. 
@@ -64,7 +64,7 @@ The Rizal Community Center  operates under the aegis of the Filipino American Co
           <h3 class="pb-3">Get Involved!</h3>
           <div class="col-4 gx-5 text-center">
             <div class="pb-2">
-              <a href="/newsletter/" class="">Check out our newsletter</a>
+              <a href="/newsletter/">Check out our newsletter</a>
             </div>
             <a href="/newsletter/">
               <img src={imgInv}/>
@@ -91,7 +91,6 @@ The Rizal Community Center  operates under the aegis of the Filipino American Co
     </section>
   </Layout>
 )
-
 export default IndexPage
 
 export const Head = () => (

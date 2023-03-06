@@ -48,7 +48,7 @@ const Newsletter = () => {
       <div> 
         <div class="text-start col-6">
           <InfoBox 
-            info={["Click on one of the issues below in order to view it in your browser.",                    "You can also click the corresponding issue's download button to download the pdf.",
+            info={["Click on one of the issues below in order to view it in your browser. You can also click the corresponding issue's download button to download the pdf.",
             "If you have any questions, concerns, or suggestions for the newsletter, please let us know!"]}
             linkPres={true}
             link="/contact/"/>

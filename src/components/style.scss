@@ -137,6 +137,11 @@ a {
     font-size:50px;
 }
 
+#carouselWrap {
+    height:550px;
+    width:732px;
+}
+
 //infobox
 #info{
     background-color:#fef1e8;
@@ -151,6 +156,11 @@ label {
 
 textarea {
     height:200px;
+}
+
+#date > p{
+    margin:0;
+    padding:0;
 }
 
 // navbar

@@ -48,7 +48,6 @@ const Contact = () => (
     <div class="container my-5 text-start">
       <div class="row">
         <div class="col-5">
-          <p>{day}</p>
           <h4 class="pb-2">CONTACT US</h4>
           <p>We are always happy to listen to any of those with questions or feedback for the FACGC and Rizal Community Center.</p>
           <p class="fw-bold m-0">Filipino American Council of Greater Chicago</p>

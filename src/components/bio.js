@@ -11,7 +11,7 @@ const Bio = (props) => {
   return (
    <div class="row py-2">
     <div class="col-4">
-      <img class="rounded " src={img}/>
+      <img class="rounded-circle img-fluid" src={img} alt={name}/>
       <div class="nameTitle">
         <p class="fw-bold">{name}</p>
         <p>{title}</p>

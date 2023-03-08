@@ -2,7 +2,7 @@ import * as React from "react"
 
 import jerry from "../images/about-us/jerry.jpeg"
 import bobby from "../images/about-us/bobby.jpeg"
-import corazon from "../images/about-us/corazon.png"
+import corazon from "../images/about-us/corazon.jpg"
 import sally from "../images/about-us/sally.jpg"
 import willi from "../images/about-us/willi.jpg"
 import dennis from "../images/about-us/dennis.png"
@@ -20,7 +20,7 @@ const OurTeam = () => (
     <div id="bio" class="container my-5">
       <div class="row">
         <div class="col-4"/>
-        <h4 class="col-8 text-start pb-3" >MEET THE BOARD</h4>
+        <h3 class="col-8 text-start pb-3" >MEET THE BOARD</h3>
       </div>
       <Bio img={[jerry]}
            name="Jerry Clarito"

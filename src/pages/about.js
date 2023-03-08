@@ -19,13 +19,13 @@ const About = () => (
         </p>
         <div class="pt-3 row">
           <div class="col-4 gx-5">
-            <img src={img}/>
+            <img class="img-fluid" src={img}/>
           </div>
           <div class="col-4 gx-5">
-            <img src={img2}/>
+            <img class="img-fluid" src={img2}/>
           </div>
           <div class="col-4 gx-5">
-            <img src={img3}/>
+            <img class="img-fluid" src={img3}/>
           </div>
         </div>
         <div class="row">
@@ -59,14 +59,14 @@ const About = () => (
         <br/>
         <div class="row">
           <h4 class="pb-3">OUR HISTORY</h4>
+          <p>The Rizal Community Center has been a hub for community since it opened its doors in 1974. Through the years, Filipino and Filipino American families as well as Chicago area neighbors and dignitaries have enjoyed the Filipino American - founded institution.</p>
           <div class="col-8">
             <p>
-              The Rizal Community Center has been a hub for community since it opened its doors in 1974. Through the years, Filipino and Filipino American families as well as Chicago area neighbors and dignitaries have enjoyed the Filipino American - founded institution.<br/><br/>  
               Much has changed from when early Filipino community leadership first founded the Filipino American Council of Greater Chicago on March 11, 1953, in order to give the growing Filipino American community a “Filipino clubhouse”, as they put it.  One of the oldest cultural organizations established in the United States, the FACGC underwent changes in acknowledgement of an expanding community. Originally named the Filipino National Council of Chicago, in 1965 the leadership changed the name to Filipino American Council of Chicago, in acknowledgment of the changing constituency of the community and recognized the need "to erase the misleading interpretation of the name of this august Council which had so long been the deterrent stigma of Unification ... in the city."  In 1997, the organization's name changed to the Filipino American Council of Greater Chicago ("FACGC"), to reflect the expanded service area.<br/> 
             </p>
           </div>
           <div class="col-4">
-            <img src={img4} alt="Our history"/>
+            <img class="img-fluid" src={img4} alt="Our history"/>
           </div>
         </div>
       <p>

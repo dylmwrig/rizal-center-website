@@ -70,11 +70,7 @@ a {
 
 //about
 #about > div > p, #about > div > div > div > p{ 
-    font-size:18px;
-}
-
-.aboutImg{
-    height:300px;
+    font-size:1.125rem;
 }
 
 //newsletter
@@ -108,13 +104,6 @@ a {
 }
 
 //volunteer
-//.volunteer > p{
-//    color: $text-muted;
-//}
-.volunteer > ul{
-    padding-left:40px;
-}
-
 .volunteer > ul, .volunteer > div > div > ul{
     list-style: none;
     //color: $text-muted;

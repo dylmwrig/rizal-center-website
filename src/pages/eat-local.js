@@ -59,13 +59,13 @@ const EatLocal = () => (
         </div>
         <div class="col-1"/>
         <div class="col-4">
-        <img class="pb-2" src={img} alt="Filipino food"/>
-        <InfoBox 
-          info={["This list is by no means comprehensive — but it's a start. If you know of a restaurant or bar that should be added to the list or an update is needed, please let us know and we will be happy to do.  Just send us a message on our Contact Us form.",
-          "The Filipino American Council of Greater Chicago is providing this information solely as a community service.",
-          "Happy eating!"]}
-          linkPres={true}
-          link="/contact/"/>
+          <img class="pb-2 img-fluid" src={img} alt="Filipino food"/>
+          <InfoBox 
+            info={["This list is by no means comprehensive — but it's a start. If you know of a restaurant or bar that should be added to the list or an update is needed, please let us know and we will be happy to do.  Just send us a message on our Contact Us form.",
+            "The Filipino American Council of Greater Chicago is providing this information solely as a community service.",
+            "Happy eating!"]}
+            linkPres={true}
+            link="/contact/"/>
         </div>
       </div>
     </div>

@@ -44,7 +44,7 @@ const VolunteerOpportunities = () => (
         </div>
         <div class="row my-4">
           <div class="col-4">
-            <img src={img3} alt="Boy Scouts Volunteering Opportunity"/>
+            <img class="img-fluid" src={img3} alt="Boy Scouts Volunteering Opportunity"/>
           </div>
           <div class="col-8">
             <h5 class="pb-2">ADDITIONAL REQUIREMENTS FOR VOLUNTEERS 18 YEARS AND YOUNGER:</h5> 

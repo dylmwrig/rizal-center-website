@@ -67,7 +67,7 @@ The Rizal Community Center  operates under the aegis of the Filipino American Co
               <a href="/newsletter/">Check out our newsletter</a>
             </div>
             <a href="/newsletter/">
-              <img src={imgInv}/>
+              <img class="img-fluid" src={imgInv}/>
             </a>
           </div>
           <div class="col-4 gx-5 text-center">
@@ -75,7 +75,7 @@ The Rizal Community Center  operates under the aegis of the Filipino American Co
               <a href="/volunteer/">Volunteer opportunities</a>
             </div>
             <a href="/volunteer/">
-              <img src={imgInv2}/>
+              <img class="img-fluid" src={imgInv2}/>
             </a>
           </div>
           <div class="col-4 gx-5 text-center">
@@ -83,7 +83,7 @@ The Rizal Community Center  operates under the aegis of the Filipino American Co
               <a href="https://circapintig.networkforgood.com/projects/172580-bayanihan-for-rizal-center?utm_campaign=Spring+campaign&fbclid=IwAR0pi8xZNfZSf0U1mx_DCvQmMMFq3WaWGWBiaq_5wqLzbIzCZ34jSfGstVI&utm_source=Website&utm_medium=Website+Page">Help us rebuild Rizal center</a>
             </div>
             <a href="/support/">
-              <img src={imgInv3}/>
+              <img class="img-fluid" src={imgInv3}/>
             </a>
           </div>
         </div>

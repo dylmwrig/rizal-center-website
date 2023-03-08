@@ -61,7 +61,7 @@ const Newsletter = () => {
               <button onClick={() =>setter(nl6, "2.2 published 02/28/23")}
                 class="btn btn-link"
                 type="button">
-                <img src={img6}/>
+                <img class="img-fluid" src={img6}/>
               </button>
               <button onClick={() =>setter(nl6, "2.2 published 02/23")}
                 class="btn btn-link"
@@ -69,14 +69,14 @@ const Newsletter = () => {
               &nbsp;&nbsp;&nbsp;
               </button>
               <a href="/BayanihanNews2.2.pdf" download> 
-                <img src={downImg} alt="Download"/>
+                <img class="img-fluid" src={downImg} alt="Download"/>
               </a>
             </div>
             <div class="col-4">
               <button onClick={() =>setter(nl5, "2.1 published 01/26/23")}
                 class="btn btn-link"
                 type="button">
-                <img src={img5}/>
+                <img class="img-fluid" src={img5}/>
               </button>
               <button onClick={() =>setter(nl5, "2.1 published 01/26/23")}
                 class="btn btn-link"
@@ -84,7 +84,7 @@ const Newsletter = () => {
               &nbsp;&nbsp;&nbsp;
               </button>
               <a href="/BayanihanNews2.1.pdf" download> 
-                <img src={downImg} alt="Download"/>
+                <img class="img-fluid" src={downImg} alt="Download"/>
               </a>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Newsletter = () => {
               <button onClick={() =>setter(nl4, "1.4 published 11/29/22")}
                 class="btn btn-link"
                 type="button">
-                <img src={img4}/>
+                <img class="img-fluid" src={img4}/>
               </button>
               <button onClick={() =>setter(nl4, "1.4 published 11/29/22")}
                 class="btn btn-link"
@@ -103,14 +103,14 @@ const Newsletter = () => {
               &nbsp;&nbsp;&nbsp;
               </button>
               <a href="/BayanihanNews1.4.pdf" download> 
-                <img src={downImg} alt="Download"/>
+                <img class="img-fluid" src={downImg} alt="Download"/>
               </a>
             </div>
             <div class="col-4">
               <button onClick={() =>setter(nl3, "1.3 published 11/02/22")}
                 class="btn btn-link"
                 type="button">
-                <img src={img3}/>
+                <img class="img-fluid" src={img3}/>
               </button>
               <button onClick={() =>setter(nl3, "1.3 published 11/02/22")}
                 class="btn btn-link"
@@ -118,14 +118,14 @@ const Newsletter = () => {
               &nbsp;&nbsp;&nbsp;
               </button>
               <a href="/BayanihanNews1.3.pdf" download> 
-                <img src={downImg} alt="Download"/>
+                <img class="img-fluid" src={downImg} alt="Download"/>
               </a>
             </div>
             <div class="col-4">
               <button onClick={() =>setter(nl2, "1.2 published 10/05/22")}
                 class="btn btn-link"
                 type="button">
-                <img src={img2}/>
+                <img class="img-fluid" src={img2}/>
               </button>
               <button onClick={() =>setter(nl2, "1.2 published 10/05/22")}                
                 class="btn btn-link"
@@ -133,7 +133,7 @@ const Newsletter = () => {
               &nbsp;&nbsp;&nbsp;
               </button>
               <a href="/BayanihanNews1.2.pdf" download> 
-                <img src={downImg} alt="Download"/>
+                <img class="img-fluid" src={downImg} alt="Download"/>
               </a>
             </div>
           </div>
@@ -143,7 +143,7 @@ const Newsletter = () => {
               <button onClick={() =>setter(nl1, "1.1 published 09/23/22")}
                 class="btn btn-link"
                 type="button">
-                <img src={img}/>
+                <img class="img-fluid" src={img}/>
               </button>
               <button onClick={() =>setter(nl1, "1.1 published 09/23/22")}                
                 class="btn btn-link"
@@ -151,7 +151,7 @@ const Newsletter = () => {
               &nbsp;&nbsp;&nbsp;
               </button>
               <a href="/BayanihanNews1.1.pdf" download> 
-                <img src={downImg} alt="Download"/>
+                <img class="img-fluid" src={downImg} alt="Download"/>
               </a>
             </div>
           </div>

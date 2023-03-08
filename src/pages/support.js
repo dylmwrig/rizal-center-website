@@ -25,7 +25,7 @@ const SupportPage = () => (
           <div class="row">
           <div class="col-6 gx-5 text-center">
             <a href="/volunteer/">
-              <img src={img2}/>
+              <img class="img-fluid" src={img2}/>
             </a>
             <div class="pb-2">
               <a href="/volunteer/">Volunteer Opportunities</a>
@@ -33,7 +33,7 @@ const SupportPage = () => (
           </div>
           <div class="col-6 gx-5 text-center">
             <a href="/volunteer-policies/">
-              <img src={img3}/>
+              <img class="img-fluid" src={img3}/>
             </a>
             <div class="pb-2">
               <a href="/volunteer-policies/">Volunteer Policies</a>

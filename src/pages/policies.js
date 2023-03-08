@@ -32,7 +32,7 @@ const Policies = () => (
                 The health, safety and well being of every patron utilizing the Rizal Community Center is our primary objective. Respect for our Rizal Community Center staff, volunteers, patrons and the facility is paramount.<br/></p> <h5 class="text-black">Policy</h5>
               </div>
               <div class="col-4">
-                <img src={img2}/>
+                <img class="img-fluid" src={img2}/>
               </div>
           </div>
               <p> The Rizal Community Center is a family-based facility and shall enforce a zero-tolerance policy with regard to negative participant conduct while on site, including, but not limited to, smoking, profanity, rowdy or disruptive behavior, fighting, mischief, and alcohol/drug/or other substance use or possession. The Community Center staff shall be the sole judge of what constitutes negative conduct and behavior covered by this policy and will involve the Chicago Police Department when necessary.</p><br/>
@@ -48,6 +48,7 @@ In the ent that severe winter weather is expected to last through the night and 
             </div>
             <div class="col-4 text-start">
                 <img src={img} 
+                  class="img-fluid"
                   height="120"
                   width="120"
                   alt="No smoking"/>

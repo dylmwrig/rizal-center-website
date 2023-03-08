@@ -18,7 +18,7 @@ const JoseRizal = () => (
           </p>
         </div>
         <div className="col-4">
-          <img src={rizalImg} alt="José P. Rizal"></img>
+          <img class="img-fluid" src={rizalImg} alt="José P. Rizal"></img>
           <p class="text-muted pt-2">
             José P. Rizal <br/>
             (June 19, 1861 - December 30, 1896)

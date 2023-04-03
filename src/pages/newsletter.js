@@ -9,6 +9,7 @@ import img3 from "../images/newsDir3.png"
 import img4 from "../images/newsDir4.png"
 import img5 from "../images/newsDir5.png"
 import img6 from "../images/newsDir6.png"
+import img7 from "../images/newsDir7.png"
 
 import PDFViewer from "../components/pdf-viewer.js"
 import InfoBox from "../components/info-box.js"
@@ -23,6 +24,7 @@ const Newsletter = () => {
   const nl4 = "https://drive.google.com/file/d/1QMJtksOqea3KxAWAqNoZYaOc13F4ZWka/preview"
   const nl5 = "https://drive.google.com/file/d/1sw2z5hxPrsdEy_FMEoIuC2-PSjAdxy0c/preview"
   const nl6 = "https://drive.google.com/file/d/1ZXJNx4ARcjYWuWv61nMrg2-VnkaG8Sll/preview"
+  const nl7 = "https://drive.google.com/file/d/1MRBWBO8HW9SjMEd-hkMlhfErb6HSfmuE/preview"
 
   function setter(pdf, info){
     setPDF(pdf)
@@ -57,6 +59,21 @@ const Newsletter = () => {
         <div class="pb-3">
           <h1 class="text-center text-dark">2023</h1>
           <div class="row">
+            <div class="col-4">
+              <button onClick={() =>setter(nl7, "2.3 published 03/30/23")}
+                class="btn btn-link"
+                type="button">
+                <img class="img-fluid" src={img7}/>
+              </button>
+              <button onClick={() =>setter(nl7, "2.3 published 03/23")}
+                class="btn btn-link"
+                type="button">Issue 2.3 pub. 03/30/23
+              &nbsp;&nbsp;&nbsp;
+              </button>
+              <a href="/BayanihanNews2.3.pdf" download> 
+                <img class="img-fluid" src={downImg} alt="Download"/>
+              </a>
+            </div>
             <div class="col-4">
               <button onClick={() =>setter(nl6, "2.2 published 02/28/23")}
                 class="btn btn-link"
